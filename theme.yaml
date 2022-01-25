@@ -1,0 +1,29 @@
+name: 'ZŠ Svoboda'
+description: 'Theme for elementary school in Svoboda nad Úpou.'
+author: 'Lukáš Záplata'
+homepage: ''
+authorCode: LZaplata
+code: zssvoboda
+parent: ''
+database: '0'
+require:
+    - rainlab.pages
+    - rainlab.blog
+    - anandpatel.wysiwygeditors
+form:
+    fields:
+        bakalari:
+            label: Bakaláři
+            span: left
+        cafeteria:
+            label: Jídelna
+            span: right
+        facebook:
+            label: Facebook
+            span: left
+        instagram:
+            label: Instagram
+            span: right
+        youtube:
+            label: Youtube
+            span: left

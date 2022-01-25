@@ -1,0 +1,52 @@
+[staticMenu main-menu]
+code = "hlavni-menu"
+==
+<header class="container-fluid bg-primary-gradient g-0">
+    <div class="d-flex justify-content-between align-items-center">
+        <div id="logo" class="ms-4 my-3">
+            <a href="{{ 'homepage'|page }}">
+                <img src="{{ 'assets/images/logo.svg'|theme }}" alt="Logo">
+            </a>
+        </div>
+
+        <div id="menu" class="d-none d-xxl-flex">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a href="{{ 'homepage'|page }}" class="nav-link text-uppercase h-100 align-items-center d-flex {{ this.page.id == 'homepage' ? 'active' }}">
+                        Úvod
+                    </a>
+                </li>
+            </ul>
+
+            {% component "main-menu" %}
+
+            <ul class="nav nav-pills">
+                {% if this.theme.bakalari %}
+                    <li class="nav-item">
+                        <a href="{{ this.theme.bakalari }}" target="_blank" class="nav-link text-uppercase fs-13 text-center">
+                            <img src="{{ 'assets/images/bakalari.png'|theme }}" alt="Bakaláři" class="mb-1 bakalari"><br>
+
+                            Bakaláři
+                        </a>
+                    </li>
+                {% endif %}
+
+                {% if this.theme.cafeteria %}
+                    <li class="nav-item">
+                        <a href="{{ this.theme.cafeteria }}" target="_blank" class="nav-link text-uppercase fs-13 text-center">
+                            <img src="{{ 'assets/images/icons/jidelna.svg'|theme }}" alt="Jídelna" class="mb-1"><br>
+
+                            Jídelna
+                        </a>
+                    </li>
+                {% endif %}
+            </ul>
+        </div>
+
+        <div id="menu-toggle" class="d-xxl-none">
+            <a href="#offcanvas" class="me-4" data-bs-toggle="offcanvas">
+                <i class="bi bi-list display-1"></i>
+            </a>
+        </div>
+    </div>
+</header>

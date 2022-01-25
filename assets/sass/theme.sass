@@ -1,0 +1,185 @@
+@import "variables"
+
+/***** toggle main menu dropdown on hover *****/
+
+//header
+    #menu
+        .dropdown
+            .dropdown-menu
+                display: none
+
+                &.show
+                    margin-top: -2px !important
+
+            &:hover, &:focus, &:active
+                .dropdown-menu
+                    display: block
+
+/***** end toggle main menu dropdown on hover *****/
+
+h1, .h1, .display1
+    font-weight: $font-weight-semi-bold
+    color: $blue-light
+
+.btn-primary-gradient
+    @include button-variant($primary-gradient-end, transparent, $white, $secondary, transparent, $white)
+    background-image: linear-gradient(to right, $primary-gradient-start, $primary-gradient-end, $secondary, $secondary)
+    background-size: 300% 100%
+    transition: $transition-base
+    transition-duration: .05s
+
+    &:hover, &:focus, &:active
+        background-position: 100% 0
+        border-color: transparent
+
+.bg-primary-gradient
+    @include gradient-x($primary-gradient-start, $primary-gradient-end)
+
+.posts4
+    .col
+        .card
+            .img
+                overflow: hidden
+
+                .card-img-top
+                    transition: $transition-base
+                    transition-duration: .4s
+                    border-radius: 0
+
+            &:hover, &:focus, &:active
+                .img
+                    .card-img-top
+                        transform: scale(1.05) rotate(1deg)
+
+.icon
+    width: 100px
+    height: 100px
+    display: flex
+    mask-size: cover
+    background-color: $body-color
+
+    &-cafeteria
+        mask-image: url("../images/icons/jidelna.svg")
+        -webkit-mask-image: url("../images/icons/jidelna.svg")
+
+header
+    z-index: 10
+
+    .nav
+        &.nav-pills
+            & > li
+                & > a
+                    border-left: 2px solid transparentize($green-light, .9) !important
+
+                    .bakalari
+                        height: 52px
+
+                a
+                    &:hover, &:focus, &:active
+                        background: $secondary
+
+                &:hover, &:focus, &:active
+                    & > div
+                        max-height: 500px
+                        transition-delay: .2s
+
+                div
+                    position: absolute
+                    max-height: 0
+                    overflow: hidden
+                    transition: $transition-base
+                    transition-delay: 0s
+
+                    .nav
+                        background: $white
+                        padding: 1rem 0
+
+                        li
+                            a
+                                text-transform: none !important
+                                color: $primary
+                                padding: .2rem 1.5rem
+                                font-weight: $font-weight-normal
+
+                                &:hover, &:focus, &:active
+                                    color: $white
+
+                                &.active
+                                    color: $blue-light
+
+                                    &:hover, &:focus, &:active
+                                        color: $white
+
+#banner
+    z-index: 0
+
+    .swiper
+        .swiper-wrapper
+            .swiper-slide
+                .container-lg
+                    p
+                        @include media-breakpoint-down(sm)
+                            font-size: $font-size-32 !important
+
+#quick-links
+    .link
+        &.border-green-light
+            border-color: transparentize($green-light, .9) !important
+
+        a
+            &:hover, &:focus, &:active
+                .img
+                    span
+                        background-color: $white !important
+
+#projects
+    .col
+        .card
+            &.bg-primary-gradient
+                background-image: linear-gradient(to right, $primary-gradient-start, $primary-gradient-end, $secondary, $secondary)
+                background-size: 300% 100%
+                transition: $transition-base
+                transition-duration: .05s
+
+                &:hover, &:focus, &:active
+                    background-position: 100% 0
+
+footer
+    .nav
+        li
+            a
+                &.active
+                    color: $secondary
+
+#copyright
+    .signature
+        span
+            mask: url("../images/signature.svg")
+            -webkit-mask: url("../images/signature.svg")
+            width: 85px
+            height: 25px
+            mask-size: cover
+            display: block
+
+#offcanvas
+    .offcanvas-body
+        .nav
+            li
+                a
+                    &.active
+                        color: $white
+
+                    &:not(.active)
+                        &:hover, &:focus, &:active
+                            color: $green-light
+
+                    .bakalari, .cafeteria
+                        height: 100px
+
+        & > .nav
+            & > li
+                ul
+                    li
+                        a
+                            text-transform: none !important
+                            font-size: $font-size-17 !important

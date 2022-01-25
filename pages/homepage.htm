@@ -1,0 +1,19 @@
+url = "/"
+layout = "default"
+title = "Úvod"
+meta_title = "Úvod"
+
+[blogPosts posts4-no-pagination]
+pageNumber = "{{ :page }}"
+postsPerPage = 4
+noPostsMessage = "Nenalezeny žádné příspěvky"
+sortOrder = "published_at asc"
+categoryPage = "news"
+postPage = "news-post"
+==
+{% partial "banner" %}
+{% partial "news" %}
+{% partial "quick-links" %}
+{% partial "projects" %}
+{% partial "partners" %}
+{% partial "gallery" %}

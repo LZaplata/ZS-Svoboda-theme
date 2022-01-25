@@ -1,0 +1,19 @@
+{% for item in items if not item.viewBag.isHidden %}
+    <li class="nav-item {{ item.viewBag.cssClass }}">
+        {% if item.url %}
+            <a href="{{ item.url }}" class="nav-link text-uppercase fs-32 text-center py-2 {{ item.isActive or item.isChildActive ? 'active' : '' }}" {{ item.viewBag.isExternal ? 'target="_blank"' }}  {% if item.items %}data-bs-toggle="collapse" data-bs-target="#{{ item.title|slug }}"{% endif %}>
+                {{ item.title }}
+            </a>
+        {% else %}
+            <span>{{ item.title }}</span>
+        {% endif %}
+
+        {% if item.items %}
+            <div class="collapse" id="{{ item.title|slug }}">
+                <ul class="nav flex-column" >
+                    {% partial __SELF__ ~ "::items" items=item.items %}
+                </ul>
+            </div>
+        {% endif %}
+    </li>
+{% endfor %}

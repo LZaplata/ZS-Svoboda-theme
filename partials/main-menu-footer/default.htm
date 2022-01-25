@@ -1,0 +1,5 @@
+{% if __SELF__.menuItems %}
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-auto g-4">
+        {% partial __SELF__ ~ "::cols" items=__SELF__.menuItems %}
+    </div>
+{% endif %}

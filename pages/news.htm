@@ -1,0 +1,14 @@
+url = "/rodice-a-verejnost/aktuality"
+layout = "default"
+title = "Aktuality"
+meta_title = "Aktuality"
+
+[blogPosts posts4]
+pageNumber = "{{ :page }}"
+postsPerPage = 10
+noPostsMessage = "Nenalezeny žádné příspěvky"
+sortOrder = "published_at desc"
+categoryPage = "news"
+postPage = "news-post"
+==
+{% component "posts4" %}

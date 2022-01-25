@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap')
+
+/***** override bootstrap variables *****/
+
+$enable-negative-margins:           true
+
+$font-family-base:                  "Lexend", sans-serif
+
+$font-weight-normal:                400
+$font-weight-medium:                500
+$font-weight-semi-bold:             600
+$font-weight-bold:                  700
+
+$font-size-13:                      .8125rem
+$font-size-17:                      1.0625rem
+$font-size-18:                      1.125rem
+$font-size-19:                      1.1875rem
+$font-size-20:                      1.25rem
+$font-size-21:                      1.3125rem
+$font-size-23:                      1.4375rem
+$font-size-32:                      2rem
+$font-size-70:                      4.375rem
+$font-size-base:                    $font-size-19
+
+$primary:                           #124d94
+$secondary:                         #00a651
+$blue-light:                        #00abba
+$green-light:                       #caf7fa
+$blue-dark:                         #122a3e
+$purple:                            #577d9d
+$primary-gradient-start:            #008cba
+$primary-gradient-end:              $primary
+$white:                             #ffffff
+
+$headings-font-weight:              $font-weight-bold
+$headings-color:                    $primary
+
+$h1-font-size:                      $font-size-70
+$h2-font-size:                      $font-size-32
+$h3-font-size:                      $font-size-21
+
+$link-color:                        $blue-light
+$link-hover-color:                  $secondary
+
+$btn-font-size:                     $font-size-18
+$btn-font-weight:                   $font-weight-bold
+$btn-padding-x:                     2rem
+$btn-padding-y:                     .7rem
+$btn-border-radius:                 5rem
+
+$nav-link-padding-x:                1.5rem
+$nav-link-padding-y:                1rem
+$nav-link-font-size:                $font-size-17
+$nav-link-font-weight:              $font-weight-medium
+$nav-link-color:                    $green-light
+$nav-link-hover-color:              $white
+$nav-pills-link-active-bg:          transparent
+$nav-pills-link-active-color:       $white
+$nav-pills-border-radius:           0
+
+$offcanvas-bg-color:                $primary
+$offcanvas-color:                   $white
+
+$btn-close-focus-shadow:            none
+
+$card-border-radius:                1.5rem
+$card-border-width:                 3px
+$card-border-color:                 $primary
+$card-spacer-x:                     1.5rem
+
+@import "bootstrap/scss/functions"
+@import "bootstrap/scss/variables"
+
+/***** add new theme color *****/
+
+$custom-colors:                     ("blue-light": $blue-light, "green-light": $green-light, "blue-dark": $blue-dark, "purple": $purple, "white": $white)
+$theme-colors:                      map-merge($theme-colors, $custom-colors)
+$theme-colors-rgb:                  map-loop($theme-colors, to-rgb, "$value")
+$utilities-colors:                  map-merge($utilities-colors, $custom-colors)
+$utilities-text-colors:             map-loop($utilities-colors, rgba-css-var, "$key", "text")
+$utilities-bg-colors:               map-loop($utilities-colors, rgba-css-var, "$key", "bg")
+
+@import "bootstrap/scss/utilities"
+
+/***** add new font weights *****/
+
+$utilities:                         map-merge($utilities, ("font-weight": map-merge(map-get($utilities, "font-weight"), (values: map-merge(map-get(map-get($utilities, "font-weight"), "values"), (medium: $font-weight-medium, semi-bold: $font-weight-semi-bold))))))
+$utilities:                         map-merge($utilities, ("font-size": map-merge(map-get($utilities, "font-size"), (values: map-merge(map-get(map-get($utilities, "font-size"), "values"), (13: $font-size-13, 17: $font-size-17, 18: $font-size-18, 19: $font-size-19, 20: $font-size-20, 23: $font-size-23, 32: $font-size-32, 70: $font-size-70))))))
+$utilities:                         map-merge($utilities, ("color-hover": (property: color, class: text, values: ("primary": $primary, "secondary": $secondary, "blue-dark": $blue-dark, "purple": $purple, "white": $white), state: hover)))
+$utilities:                         map-merge($utilities, ("border-hover": (property: border-color, class: border, values: ("secondary": $secondary), state: hover)))
+$utilities:                         map-merge($utilities, ("bg-hover": (property: background-color, class: bg, values: ("secondary": $secondary, "blue-light": $blue-light, "white": $white), state: hover)))
+$utilities:                         map-merge($utilities, ("transition": (property: transition, class: transition, values: ("base": $transition-base))))
+$utilities:                         map-merge($utilities, ("border-top": map_merge(map_get($utilities, "border-top"), (responsive: true))))
+$utilities:                         map-merge($utilities, ("border-start": map_merge(map_get($utilities, "border-start"), (responsive: true))))
+$utilities:                         map-merge($utilities, ("border-bottom": map_merge(map_get($utilities, "border-bottom"), (responsive: true))))
+$utilities:                         map-merge($utilities, ("border-end": map_merge(map_get($utilities, "border-end"), (responsive: true))))
+
+@import "bootstrap/scss/bootstrap"

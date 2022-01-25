@@ -1,0 +1,20 @@
+url = "/rodice-a-verejnost/aktuality/:slug"
+layout = "default"
+title = "News Post"
+
+[blogPost post]
+slug = "{{ :slug }}"
+categoryPage = "news"
+==
+<?php
+function onInit()
+{
+    $this["activeMenuItem"] = "news";
+}
+?>
+==
+<section class="container-fluid pt-4 pb-5">
+    <div class="container-lg">
+        {% component 'post' %}
+    </div>
+</section>

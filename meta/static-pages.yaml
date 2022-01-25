@@ -1,0 +1,14 @@
+static-pages:
+    o-skole:
+        o-skole-o-skole: {  }
+        o-skole-historie-skoly: {  }
+        fotogalerie: {  }
+        o-skole-zamestnanci: {  }
+        o-skole-absolventi: {  }
+        o-skole-soucasni-zaci: {  }
+    rodice-verejnost: {  }
+    materska-skola:
+        materska-skola-o-materske-skole: {  }
+    dokumenty:
+        dokumenty-projekty: {  }
+    kontakty: {  }

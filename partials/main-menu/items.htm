@@ -1,0 +1,19 @@
+{% for item in items if not item.viewBag.isHidden %}
+    <li class="nav-item {{ item.viewBag.cssClass }}">
+        {% if item.url %}
+            <a href="{{ item.url }}" class="nav-link text-uppercase h-100 align-items-center d-flex {{ item.isActive or item.isChildActive ? 'active' : '' }}" {{ item.viewBag.isExternal ? 'target="_blank"' }}>
+                {{ item.title }}
+            </a>
+        {% else %}
+            <span>{{ item.title }}</span>
+        {% endif %}
+
+        {% if item.items %}
+            <div>
+                <ul class="nav flex-column">
+                    {% partial __SELF__ ~ "::items" items=item.items %}
+                </ul>
+            </div>
+        {% endif %}
+    </li>
+{% endfor %}

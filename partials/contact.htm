@@ -1,0 +1,39 @@
+<div class="container-fluid bg-blue-light py-4 text-white fs-17" id="contact">
+    <div class="container-lg">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+            <div class="col">
+                <p class="mb-0">
+                    <span class="fw-bold">ZŠ Svoboda nad Úpou</span><br>
+                    Kostelní 560 <br>
+                    542 24 Svoboda nad Úpou
+                </p>
+            </div>
+
+            <div class="col d-flex align-items-md-end justify-content-md-center">
+                <p class="mb-0 text-center">
+                    <a href="mailto:info@zssvoboda.eu" class="link-white text-decoration-none text-blue-dark-hover transition-base">
+                        info@zssvoboda.eu
+                    </a><br>
+
+                    <a href="tel:+420 731 481 922" class="link-white text-decoration-none text-blue-dark-hover transition-base">
+                        +420 731 481 922
+                    </a>
+                </p>
+            </div>
+
+            <div class="d-flex align-items-md-end justify-content-md-end flex-column">
+                <p class="mb-1 text-md-end">
+                    <span class="fw-bold">Sledujte nás</span><br>
+                </p>
+
+                <p class="mb-0 text-md-end">
+                    {% if this.theme.facebook %}
+                        <a href="{{ this.theme.facebook }}" target="_blank" class="link-white text-blue-dark-hover transition-base">
+                            <i class="bi bi-facebook fs-23"></i>
+                        </a>
+                    {% endif %}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

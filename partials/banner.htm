@@ -1,0 +1,25 @@
+<div class="container-fluid g-0" id="banner">
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide position-relative">
+                <picture>
+                    <source srcset="{{ "assets/images/banners/mobile/01.jpg"|theme }}" media="(max-width: 599px)">
+
+                    <img src="{{ 'assets/images/banners/01.jpg'|theme }}" alt="banner01" class="img-fluid">
+                </picture>
+
+                <div class="container-lg px-4 position-absolute top-0 start-50 translate-middle-x h-100 justify-content-end align-items-end d-flex">
+                    <p class="mb-5 h1 text-white text-end fw-normal">
+                        Základní škola <br>
+                        a mateřská škola <br>
+                        Svoboda nad Úpou
+                    </p>
+                </div>
+            </div>
+
+            {#            <div class="swiper-slide">#}
+            {#                <img src="{{ 'assets/images/banners/02.jpg'|theme }}" alt="banner02">#}
+            {#            </div>#}
+        </div>
+    </div>
+</div>

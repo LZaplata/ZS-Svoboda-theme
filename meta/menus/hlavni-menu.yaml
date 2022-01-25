@@ -1,0 +1,186 @@
+items:
+    -
+        title: 'O škole'
+        nesting: 0
+        type: static-page
+        url: null
+        code: ''
+        reference: o-skole-o-skole
+        cmsPage: null
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+        items:
+            -
+                title: 'O škole'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: o-skole-o-skole
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Historie školy'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: o-skole-historie-skoly
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: Fotogalerie
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: fotogalerie
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: Zaměstnanci
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: o-skole-zamestnanci
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: Absolventi
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: o-skole-absolventi
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Současní žáci'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: o-skole-soucasni-zaci
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+    -
+        title: 'Rodiče a veřejnost'
+        nesting: null
+        type: cms-page
+        url: null
+        code: ''
+        reference: news
+        cmsPage: null
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+        items:
+            -
+                title: Aktuality
+                nesting: null
+                type: cms-page
+                url: null
+                code: news
+                reference: news
+                cmsPage: null
+                replace: null
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+    -
+        title: 'Mateřská škola'
+        nesting: 0
+        type: static-page
+        code: ''
+        reference: materska-skola-o-materske-skole
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+        items:
+            -
+                title: 'O mateřské škole'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: materska-skola-o-materske-skole
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+    -
+        title: Dokumenty
+        nesting: 0
+        type: static-page
+        url: null
+        code: ''
+        reference: dokumenty
+        cmsPage: null
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+        items:
+            -
+                title: Projekty
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: dokumenty-projekty
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+    -
+        title: Kontakty
+        nesting: 0
+        type: static-page
+        url: null
+        code: ''
+        reference: kontakty
+        cmsPage: null
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+name: 'Hlavní menu'
