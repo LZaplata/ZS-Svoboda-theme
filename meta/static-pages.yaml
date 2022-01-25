@@ -6,9 +6,27 @@ static-pages:
         o-skole-zamestnanci: {  }
         o-skole-absolventi: {  }
         o-skole-soucasni-zaci: {  }
-    rodice-verejnost: {  }
+    rodice-verejnost:
+        rodice-verejnost-zajmove-krouzky: {  }
+        rodice-verejnost-skolni-druzina: {  }
+        rodice-verejnost-vychovny-poradce: {  }
+        rodice-verejnost-rozvrhy: {  }
+        rodice-verejnost-zvoneni: {  }
+        rodice-verejnost-logopedicka-prevence: {  }
+        rodice-verejnost-specialni-pedagogicka-pece: {  }
     materska-skola:
         materska-skola-o-materske-skole: {  }
+        materska-skola-predskolaci-medvidci: {  }
+        materska-skola-kontakty: {  }
     dokumenty:
+        dokumenty-ke-stazeni: {  }
+        dokumenty-finance: {  }
         dokumenty-projekty: {  }
-    kontakty: {  }
+        dokumenty-smlouvy: {  }
+        dokumenty-poptavkove-rizeni: {  }
+        dokumenty-gdpr: {  }
+    kontakty:
+        kontakty-kontakty: {  }
+        kontakty-uredni-hodiny: {  }
+        kontakty-kontakty-materska-skola: {  }
+        kontakty-nenech-byt: {  }

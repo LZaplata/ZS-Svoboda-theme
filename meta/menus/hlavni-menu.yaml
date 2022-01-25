@@ -118,12 +118,105 @@ items:
                     isHidden: '0'
                     cssClass: ''
                     isExternal: '0'
+            -
+                title: 'Zájmové kroužky'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: rodice-verejnost-zajmove-krouzky
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Školní družina'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: rodice-verejnost-skolni-druzina
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Výchovný poradce'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: rodice-verejnost-vychovny-poradce
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: Rozvrhy
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: rodice-verejnost-rozvrhy
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: Zvonění
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: rodice-verejnost-zvoneni
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Logopedická prevence'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: rodice-verejnost-logopedicka-prevence
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Speciální pedagogická péče'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: rodice-verejnost-specialni-pedagogicka-pece
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
     -
         title: 'Mateřská škola'
         nesting: 0
         type: static-page
+        url: null
         code: ''
         reference: materska-skola-o-materske-skole
+        cmsPage: null
         replace: 0
         viewBag:
             isHidden: '0'
@@ -143,13 +236,39 @@ items:
                     isHidden: '0'
                     cssClass: ''
                     isExternal: '0'
+            -
+                title: 'Předškoláci medvídci'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: materska-skola-predskolaci-medvidci
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: Kontakty
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: materska-skola-kontakty
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
     -
         title: Dokumenty
         nesting: 0
         type: static-page
         url: null
         code: ''
-        reference: dokumenty
+        reference: dokumenty-ke-stazeni
         cmsPage: null
         replace: 0
         viewBag:
@@ -157,6 +276,32 @@ items:
             cssClass: ''
             isExternal: '0'
         items:
+            -
+                title: 'Ke stažení'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: dokumenty-ke-stazeni
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: Finance
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: dokumenty-finance
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
             -
                 title: Projekty
                 nesting: 0
@@ -170,17 +315,99 @@ items:
                     isHidden: '0'
                     cssClass: ''
                     isExternal: '0'
+            -
+                title: Smlouvy
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: dokumenty-smlouvy
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Poptávkové řízení'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: dokumenty-poptavkove-rizeni
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: GDPR
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: dokumenty-gdpr
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
     -
         title: Kontakty
         nesting: 0
         type: static-page
-        url: null
         code: ''
-        reference: kontakty
-        cmsPage: null
+        reference: kontakty-kontakty
         replace: 0
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
+        items:
+            -
+                title: Kontakty
+                nesting: 0
+                type: static-page
+                code: ''
+                reference: kontakty-kontakty
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Úřední hodiny'
+                nesting: 0
+                type: static-page
+                code: ''
+                reference: kontakty-uredni-hodiny
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Kontakty - mateřská škola'
+                nesting: 0
+                type: static-page
+                code: ''
+                reference: kontakty-kontakty-materska-skola
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Nenech to být'
+                nesting: 0
+                type: static-page
+                code: ''
+                reference: kontakty-nenech-byt
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
 name: 'Hlavní menu'
