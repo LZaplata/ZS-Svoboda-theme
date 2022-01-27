@@ -1,14 +1,22 @@
-url = "/rodice-a-verejnost/aktuality"
+url = "/rodice-a-verejnost/aktuality/:page?"
 layout = "default"
 title = "Aktuality"
 meta_title = "Aktuality"
 
 [blogPosts posts4]
 pageNumber = "{{ :page }}"
-postsPerPage = 10
+postsPerPage = 3
 noPostsMessage = "Nenalezeny žádné příspěvky"
 sortOrder = "published_at desc"
 categoryPage = "news"
 postPage = "news-post"
 ==
-{% component "posts4" %}
+<div class="container-fluid py-5" id="news">
+    <div class="container-lg">
+        <h1 class="mb-4">
+            {{ this.page.title }}
+        </h1>
+
+        {% component "posts4" %}
+    </div>
+</div>
