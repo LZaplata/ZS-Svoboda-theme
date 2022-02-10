@@ -53,12 +53,12 @@ items:
                     cssClass: ''
                     isExternal: '0'
             -
-                title: Zaměstnanci
+                title: 'Současní žáci'
                 nesting: 0
                 type: static-page
                 url: null
                 code: ''
-                reference: o-skole-zamestnanci
+                reference: o-skole-soucasni-zaci
                 cmsPage: null
                 replace: 0
                 viewBag:
@@ -72,19 +72,6 @@ items:
                 url: null
                 code: ''
                 reference: o-skole-absolventi
-                cmsPage: null
-                replace: 0
-                viewBag:
-                    isHidden: '0'
-                    cssClass: ''
-                    isExternal: '0'
-            -
-                title: 'Současní žáci'
-                nesting: 0
-                type: static-page
-                url: null
-                code: ''
-                reference: o-skole-soucasni-zaci
                 cmsPage: null
                 replace: 0
                 viewBag:
