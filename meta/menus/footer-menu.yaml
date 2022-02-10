@@ -352,4 +352,49 @@ items:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
+        items:
+            -
+                title: Kontakty
+                nesting: 0
+                type: static-page
+                code: ''
+                reference: kontakty-kontakty
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Úřední hodiny'
+                nesting: 0
+                type: static-page
+                code: ''
+                reference: kontakty-uredni-hodiny
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Kontakty - mateřská škola'
+                nesting: 0
+                type: static-page
+                code: ''
+                reference: kontakty-kontakty-materska-skola
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Nenech to být'
+                nesting: 0
+                type: static-page
+                code: ''
+                reference: kontakty-nenech-byt
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
 name: 'Main menu'
