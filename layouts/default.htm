@@ -47,7 +47,9 @@ code = "footer-menu"
                     <div class="container-lg">
                         <div class="row">
                             <div class="col-xl-3 d-none d-xl-block">
-                                {% component "left-menu" code=page.parent.id %}
+                                <div class="me-4">
+                                    {% component "left-menu" code=page.parent.id %}
+                                </div>
                             </div>
 
                             <div class="content col-xl-9">
