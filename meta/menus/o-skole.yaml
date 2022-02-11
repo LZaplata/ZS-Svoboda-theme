@@ -1,0 +1,65 @@
+items:
+    -
+        title: 'O škole'
+        nesting: 0
+        type: static-page
+        code: ''
+        reference: o-skole-o-skole
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Historie školy'
+        nesting: 0
+        type: static-page
+        url: null
+        code: ''
+        reference: o-skole-historie-skoly
+        cmsPage: null
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Fotogalerie
+        nesting: 0
+        type: static-page
+        url: null
+        code: ''
+        reference: fotogalerie
+        cmsPage: null
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Současní žáci'
+        nesting: 0
+        type: static-page
+        url: null
+        code: ''
+        reference: o-skole-soucasni-zaci
+        cmsPage: null
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Absolventi
+        nesting: 0
+        type: static-page
+        url: null
+        code: ''
+        reference: o-skole-absolventi
+        cmsPage: null
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+name: 'O škole'

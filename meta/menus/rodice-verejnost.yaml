@@ -1,0 +1,94 @@
+items:
+    -
+        title: Aktuality
+        nesting: null
+        type: cms-page
+        url: null
+        code: ''
+        reference: news
+        cmsPage: null
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Zájmové kroužky'
+        nesting: 0
+        type: static-page
+        code: ''
+        reference: rodice-verejnost-zajmove-krouzky
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Školní družina'
+        nesting: 0
+        type: static-page
+        url: null
+        code: ''
+        reference: rodice-verejnost-skolni-druzina
+        cmsPage: null
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Výchovný poradce'
+        nesting: 0
+        type: static-page
+        code: ''
+        reference: rodice-verejnost-vychovny-poradce
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Rozvrhy
+        nesting: 0
+        type: static-page
+        code: ''
+        reference: rodice-verejnost-rozvrhy
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Zvonění
+        nesting: 0
+        type: static-page
+        code: ''
+        reference: rodice-verejnost-zvoneni
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Logopedická prevence'
+        nesting: 0
+        type: static-page
+        code: ''
+        reference: rodice-verejnost-logopedicka-prevence
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Speciální pedagogická péče'
+        nesting: 0
+        type: static-page
+        code: ''
+        reference: rodice-verejnost-specialni-pedagogicka-pece
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+name: 'Rodiče a veřejnost'

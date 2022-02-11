@@ -19,7 +19,7 @@
 
 h1, .h1, .display1
     font-weight: $font-weight-semi-bold
-    color: $blue-light
+    color: $secondary
 
 .btn-primary-gradient
     @include button-variant($primary-gradient-end, transparent, $white, $secondary, transparent, $white)
@@ -31,6 +31,12 @@ h1, .h1, .display1
     &:hover, &:focus, &:active
         background-position: 100% 0
         border-color: transparent
+
+.btn-outline-blue-light
+    @include button-variant(transparent, $blue-light, $blue-light, $blue-light, $blue-light, $white, $blue-light, $blue-light, $white)
+
+    &:hover, &:focus, &:active
+        box-shadow: none !important
 
 .bg-primary-gradient
     @include gradient-x($primary-gradient-start, $primary-gradient-end)

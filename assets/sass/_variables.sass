@@ -19,6 +19,7 @@ $font-size-20:                      1.25rem
 $font-size-21:                      1.3125rem
 $font-size-23:                      1.4375rem
 $font-size-32:                      2rem
+$font-size-45:                      2.8125rem
 $font-size-70:                      4.375rem
 $font-size-base:                    $font-size-19
 
@@ -35,7 +36,7 @@ $white:                             #ffffff
 $headings-font-weight:              $font-weight-bold
 $headings-color:                    $primary
 
-$h1-font-size:                      $font-size-70
+$h1-font-size:                      $font-size-45
 $h2-font-size:                      $font-size-32
 $h3-font-size:                      $font-size-21
 
@@ -47,6 +48,7 @@ $btn-font-weight:                   $font-weight-bold
 $btn-padding-x:                     2rem
 $btn-padding-y:                     .7rem
 $btn-border-radius:                 5rem
+$btn-border-width:                  2px
 
 $nav-link-padding-x:                1.5rem
 $nav-link-padding-y:                1rem
@@ -94,5 +96,6 @@ $utilities:                         map-merge($utilities, ("border-top": map_mer
 $utilities:                         map-merge($utilities, ("border-start": map_merge(map_get($utilities, "border-start"), (responsive: true))))
 $utilities:                         map-merge($utilities, ("border-bottom": map_merge(map_get($utilities, "border-bottom"), (responsive: true))))
 $utilities:                         map-merge($utilities, ("border-end": map_merge(map_get($utilities, "border-end"), (responsive: true))))
+$utilities:                         map-merge($utilities, ("width": map-merge(map-get($utilities, "width"), (responsive: true))))
 
 @import "bootstrap/scss/bootstrap"
