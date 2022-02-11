@@ -190,3 +190,42 @@ footer
                         a
                             text-transform: none !important
                             font-size: $font-size-17 !important
+
+#static-page
+    .content
+        p
+            margin-bottom: map-get($spacers, 4)
+
+        a
+            font-weight: $font-weight-semi-bold
+            transition: $transition-base
+
+        ul
+            padding-left: 0
+
+            li
+                list-style: none
+                color: $primary
+                font-weight: $font-weight-semi-bold
+                padding-left: 2.5rem
+                position: relative
+
+                &:before
+                    content: "\F232"
+                    font-family: "bootstrap-icons"
+                    margin-right: 1rem
+                    top: 3px
+                    left: 0
+                    position: absolute
+                    color: $blue-light
+                    font-size: $font-size-15
+
+                &:not(:first-child)
+                    margin-top: map-get($spacers, 4)
+
+        h2, h3, h4, h5, h6
+            margin-bottom: map-get($spacers, 4)
+            margin-top: map-get($spacers, 5)
+
+        h3
+            color: $blue-dark
