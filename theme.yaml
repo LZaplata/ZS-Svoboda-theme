@@ -10,6 +10,7 @@ require:
     - rainlab.pages
     - rainlab.blog
     - anandpatel.wysiwygeditors
+    - andreishilov.spmbreadcrumbs
 form:
     fields:
         bakalari:

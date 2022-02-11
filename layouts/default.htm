@@ -3,6 +3,9 @@ useContent = 1
 default = 0
 
 [staticMenu left-menu]
+
+[breadcrumbs]
+code = "footer-menu"
 ==
 <!DOCTYPE html>
 <html class="h-100" lang="en">
@@ -27,6 +30,12 @@ default = 0
 
     <body class="d-flex flex-column h-100">
         {% partial "header" %}
+
+        <div class="container-fluid bg-green-light py-2" id="breadcrumb">
+            <div class="container-lg">
+                {% component "breadcrumbs" %}
+            </div>
+        </div>
 
         <main>
             {% if not staticPage.content %}
