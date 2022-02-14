@@ -103,7 +103,7 @@ $utilities-bg-colors:               map-loop($utilities-colors, rgba-css-var, "$
 /***** add new utilities *****/
 
 $utilities:                         map-merge($utilities, ("font-weight": map-merge(map-get($utilities, "font-weight"), (values: map-merge(map-get(map-get($utilities, "font-weight"), "values"), (medium: $font-weight-medium, semi-bold: $font-weight-semi-bold))))))
-$utilities:                         map-merge($utilities, ("font-size": map-merge(map-get($utilities, "font-size"), (values: map-merge(map-get(map-get($utilities, "font-size"), "values"), (13: $font-size-13, 17: $font-size-17, 18: $font-size-18, 19: $font-size-19, 20: $font-size-20, 21: $font-size-21, 23: $font-size-23, 32: $font-size-32, 70: $font-size-70))))))
+$utilities:                         map-merge($utilities, ("font-size": map-merge(map-get($utilities, "font-size"), (values: map-merge(map-get(map-get($utilities, "font-size"), "values"), (13: $font-size-13, 15: $font-size-15, 17: $font-size-17, 18: $font-size-18, 19: $font-size-19, 20: $font-size-20, 21: $font-size-21, 23: $font-size-23, 32: $font-size-32, 70: $font-size-70))))))
 $utilities:                         map-merge($utilities, ("color-hover": (property: color, class: text, values: ("primary": $primary, "secondary": $secondary, "blue-dark": $blue-dark, "purple": $purple, "white": $white), state: hover)))
 $utilities:                         map-merge($utilities, ("border-hover": (property: border-color, class: border, values: ("secondary": $secondary), state: hover)))
 $utilities:                         map-merge($utilities, ("bg-hover": (property: background-color, class: bg, values: ("secondary": $secondary, "blue-light": $blue-light, "white": $white), state: hover)))

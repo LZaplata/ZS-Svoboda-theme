@@ -1,0 +1,49 @@
+{% set post = __SELF__.post %}
+
+<h1 class="mb-4">
+    {{ post.title }}
+</h1>
+
+<div class="date">
+    <p class="fs-15">
+        {{ post.published_at|date("j. n. Y") }}
+    </p>
+</div>
+
+<div class="content">
+    {{ post.content|raw }}
+</div>
+
+{% if post.featured_images.count %}
+    <div class="mt-5" id="gallery">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+            {% for image in post.featured_images %}
+                <div class="col">
+                    <a href="{{ image.path }}" title="{{ image.description }}">
+                        <img src="{{ image.path|resize(600, 400, { mode: 'crop' }) }}" alt="{{ image.title }}" class="img-fluid" />
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endif %}
+
+{% put scripts %}
+    <script>
+        lightGallery(document.getElementById("gallery"), {
+            plugins: [lgZoom, lgThumbnail],
+            speed: 500,
+            selector: ".row .col a"
+        });
+    </script>
+{% endput %}
+
+{#<p class="info">#}
+{#    Posted#}
+{#    {% if post.categories.count %} in#}
+{#        {% for category in post.categories %}#}
+{#            <a href="{{ category.url }}">{{ category.name }}</a>{% if not loop.last %}, {% endif %}#}
+{#        {% endfor %}#}
+{#    {% endif %}#}
+{#    on {{ post.published_at|date('M d, Y') }}#}
+{#</p>#}

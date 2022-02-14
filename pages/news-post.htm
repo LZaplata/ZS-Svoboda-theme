@@ -1,10 +1,13 @@
 url = "/rodice-a-verejnost/aktualita/:slug"
 layout = "default"
-title = "News Post"
+title = "Aktualita"
 
 [blogPost post]
 slug = "{{ :slug }}"
 categoryPage = "news"
+
+[staticMenu left-menu]
+code = "rodice-verejnost"
 ==
 <?php
 function onInit()
@@ -13,8 +16,18 @@ function onInit()
 }
 ?>
 ==
-<section class="container-fluid pt-4 pb-5">
+<div class="container-fluid py-5" id="news-post">
     <div class="container-lg">
-        {% component 'post' %}
+        <div class="row">
+            <div class="col-xl-3 d-none d-xl-block">
+                <div class="me-4">
+                    {% component "left-menu" %}
+                </div>
+            </div>
+
+            <div class="content col-xl-9">
+                {% component "post" %}
+            </div>
+        </div>
     </div>
-</section>
+</div>

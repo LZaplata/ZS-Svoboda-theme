@@ -1,13 +1,9 @@
 items:
     -
         title: Aktuality
-        nesting: null
         type: cms-page
-        url: null
-        code: ''
+        code: news
         reference: news
-        cmsPage: null
-        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -16,8 +12,10 @@ items:
         title: 'Zájmové kroužky'
         nesting: 0
         type: static-page
+        url: null
         code: ''
         reference: rodice-verejnost-zajmove-krouzky
+        cmsPage: null
         replace: 0
         viewBag:
             isHidden: '0'
@@ -40,8 +38,10 @@ items:
         title: 'Výchovný poradce'
         nesting: 0
         type: static-page
+        url: null
         code: ''
         reference: rodice-verejnost-vychovny-poradce
+        cmsPage: null
         replace: 0
         viewBag:
             isHidden: '0'
@@ -51,8 +51,10 @@ items:
         title: Rozvrhy
         nesting: 0
         type: static-page
+        url: null
         code: ''
         reference: rodice-verejnost-rozvrhy
+        cmsPage: null
         replace: 0
         viewBag:
             isHidden: '0'
@@ -62,8 +64,10 @@ items:
         title: Zvonění
         nesting: 0
         type: static-page
+        url: null
         code: ''
         reference: rodice-verejnost-zvoneni
+        cmsPage: null
         replace: 0
         viewBag:
             isHidden: '0'
@@ -73,8 +77,10 @@ items:
         title: 'Logopedická prevence'
         nesting: 0
         type: static-page
+        url: null
         code: ''
         reference: rodice-verejnost-logopedicka-prevence
+        cmsPage: null
         replace: 0
         viewBag:
             isHidden: '0'
@@ -84,8 +90,10 @@ items:
         title: 'Speciální pedagogická péče'
         nesting: 0
         type: static-page
+        url: null
         code: ''
         reference: rodice-verejnost-specialni-pedagogicka-pece
+        cmsPage: null
         replace: 0
         viewBag:
             isHidden: '0'
