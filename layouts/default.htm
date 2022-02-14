@@ -30,16 +30,16 @@ default = 0
     <body class="d-flex flex-column h-100">
         {% partial "header" %}
 
-        {% if this.page.id != "homepage" %}
-            <div class="container-fluid px-0" id="slider-wrapper">
-                {% component "slider" id=[page.parent.id, "slider"]|join("-") %}
-            </div>
-        {% endif %}
-
         <main>
             {% if not staticPage.content %}
                 {% page %}
             {% else %}
+                {% if this.page.id != "homepage" and staticPage.content %}
+                    <div class="container-fluid px-0" id="slider-wrapper">
+                        {% component "slider" id=[page.parent.id, "slider"]|join("-") %}
+                    </div>
+                {% endif %}
+
                 <div class="container-fluid my-5" id="static-page">
                     <div class="container-lg">
                         <div class="row">
