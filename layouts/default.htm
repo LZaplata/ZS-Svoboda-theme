@@ -32,7 +32,7 @@ default = 0
 
         {% if this.page.id != "homepage" %}
             <div class="container-fluid px-0" id="slider-wrapper">
-                {% component "slider" id=1 %}
+                {% component "slider" id=[page.parent.id, "slider"]|join("-") %}
             </div>
         {% endif %}
 
