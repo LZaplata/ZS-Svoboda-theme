@@ -3,20 +3,33 @@ layout = "default"
 title = "Aktuality"
 meta_title = "Aktuality"
 
-[blogPosts posts4]
+[blogPosts posts3]
 pageNumber = "{{ :page }}"
 postsPerPage = 3
 noPostsMessage = "Nenalezeny žádné příspěvky"
 sortOrder = "published_at desc"
 categoryPage = "news"
 postPage = "news-post"
+
+[staticMenu left-menu]
+code = "rodice-verejnost"
 ==
 <div class="container-fluid py-5" id="news">
     <div class="container-lg">
-        <h1 class="mb-4">
-            {{ this.page.title }}
-        </h1>
+        <div class="row">
+            <div class="col-xl-3 d-none d-xl-block">
+                <div class="me-4">
+                    {% component "left-menu" %}
+                </div>
+            </div>
 
-        {% component "posts4" %}
+            <div class="content col-xl-9">
+                <h1 class="mb-4">
+                    {{ this.page.title }}
+                </h1>
+
+                {% component "posts3" %}
+            </div>
+        </div>
     </div>
 </div>

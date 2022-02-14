@@ -4,8 +4,7 @@ default = 0
 
 [staticMenu left-menu]
 
-[breadcrumbs]
-code = "footer-menu"
+[Gallery slider]
 ==
 <!DOCTYPE html>
 <html class="h-100" lang="en">
@@ -32,10 +31,8 @@ code = "footer-menu"
         {% partial "header" %}
 
         {% if this.page.id != "homepage" %}
-            <div class="container-fluid bg-green-light py-2" id="breadcrumb">
-                <div class="container-lg">
-                    {% component "breadcrumbs" %}
-                </div>
+            <div class="container-fluid px-0" id="slider-wrapper">
+                {% component "slider" id=1 %}
             </div>
         {% endif %}
 
