@@ -27,7 +27,7 @@
 </div>
 
 {% if posts.lastPage > 1 %}
-    <ul class="pagination mt-4 justify-content-center">
+    <ul class="pagination mt-5 justify-content-center">
         {% if posts.currentPage > 1 %}
             <li class="page-item">
                 <a href="{{ this.page.baseFileName|page({ (__SELF__.pageParam): (posts.currentPage-1) }) }}" class="page-link d-flex align-items-center justify-content-center">
