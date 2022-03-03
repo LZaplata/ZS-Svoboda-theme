@@ -1,9 +1,13 @@
 items:
     -
         title: Aktuality
+        nesting: null
         type: cms-page
+        url: null
         code: news
         reference: news
+        cmsPage: null
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -62,13 +66,9 @@ items:
             isExternal: '0'
     -
         title: Zvonění
-        nesting: 0
-        type: static-page
-        url: null
+        type: cms-page
         code: ''
-        reference: rodice-verejnost-zvoneni
-        cmsPage: null
-        replace: 0
+        reference: ringing
         viewBag:
             isHidden: '0'
             cssClass: ''

@@ -159,13 +159,9 @@ items:
                     isExternal: '0'
             -
                 title: Zvonění
-                nesting: 0
-                type: static-page
-                url: null
+                type: cms-page
                 code: ''
-                reference: rodice-verejnost-zvoneni
-                cmsPage: null
-                replace: 0
+                reference: ringing
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
@@ -345,8 +341,10 @@ items:
         title: Kontakty
         nesting: 0
         type: static-page
+        url: null
         code: ''
         reference: kontakty-kontakty
+        cmsPage: null
         replace: 0
         viewBag:
             isHidden: '0'
@@ -357,8 +355,10 @@ items:
                 title: Kontakty
                 nesting: 0
                 type: static-page
+                url: null
                 code: ''
                 reference: kontakty-kontakty
+                cmsPage: null
                 replace: 0
                 viewBag:
                     isHidden: '0'
@@ -368,8 +368,10 @@ items:
                 title: 'Úřední hodiny'
                 nesting: 0
                 type: static-page
+                url: null
                 code: ''
                 reference: kontakty-uredni-hodiny
+                cmsPage: null
                 replace: 0
                 viewBag:
                     isHidden: '0'
@@ -379,8 +381,10 @@ items:
                 title: 'Kontakty - mateřská škola'
                 nesting: 0
                 type: static-page
+                url: null
                 code: ''
                 reference: kontakty-kontakty-materska-skola
+                cmsPage: null
                 replace: 0
                 viewBag:
                     isHidden: '0'
@@ -390,8 +394,10 @@ items:
                 title: 'Nenech to být'
                 nesting: 0
                 type: static-page
+                url: null
                 code: ''
                 reference: kontakty-nenech-byt
+                cmsPage: null
                 replace: 0
                 viewBag:
                     isHidden: '0'
