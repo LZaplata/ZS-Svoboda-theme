@@ -54,9 +54,11 @@ items:
                     isExternal: '0'
             -
                 title: 'Současní žáci'
-                type: cms-page
+                nesting: 0
+                type: static-page
                 code: ''
-                reference: current-students
+                reference: o-skole-soucasni-zaci
+                replace: 0
                 viewBag:
                     isHidden: '0'
                     cssClass: ''

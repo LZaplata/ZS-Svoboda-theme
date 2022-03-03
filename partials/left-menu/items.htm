@@ -1,7 +1,7 @@
 {% for item in items if not item.viewBag.isHidden %}
     <li class="nav-item {{ item.viewBag.cssClass }} {{ not loop.first ? 'mt-3' }}">
         {% if item.url %}
-            <a href="{{ item.url }}" class="nav-link text-uppercase text-start btn btn-outline-blue-light {{ item.isActive or item.isChildActive or page.parent.title == item.title ? 'active' : '' }}" {{ item.viewBag.isExternal ? 'target="_blank"' }}>
+            <a href="{{ item.url }}" class="nav-link text-uppercase text-start btn btn-outline-blue-light {{ item.isActive or item.isChildActive ? 'active' : '' }}" {{ item.viewBag.isExternal ? 'target="_blank"' }}>
                 {{ item.title }}
             </a>
         {% else %}
