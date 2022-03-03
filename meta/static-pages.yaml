@@ -7,6 +7,16 @@ static-pages:
         o-skole-absolventi: {  }
         o-skole-soucasni-zaci:
             o-skole-soucasni-zaci-1-trida: {  }
+            o-skole-soucasni-zaci-2-trida: {  }
+            o-skole-soucasni-zaci-3-trida: {  }
+            o-skole-soucasni-zaci-4-trida: {  }
+            o-skole-soucasni-zaci-5-trida: {  }
+            o-skole-soucasni-zaci-6-trida: {  }
+            o-skole-soucasni-zaci-7-a: {  }
+            o-skole-soucasni-zaci-7-b: {  }
+            o-skole-soucasni-zaci-8-a: {  }
+            o-skole-soucasni-zaci-8-b: {  }
+            o-skole-soucasni-zaci-9-trida: {  }
     rodice-verejnost:
         rodice-verejnost-zajmove-krouzky: {  }
         rodice-verejnost-skolni-druzina: {  }
