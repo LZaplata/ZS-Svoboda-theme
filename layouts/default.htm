@@ -55,6 +55,14 @@ default = 0
                                 </h1>
 
                                 {% page %}
+
+                                {% if page.parent.parent %}
+                                    <p class="mb-0 mt-5">
+                                        <a href="" class="btn btn-primary-gradient text-uppercase d-inline-flex align-items-center">
+                                            <i class="bi bi-chevron-left fs-13 me-2"></i> zpět
+                                        </a>
+                                    </p>
+                                {% endif %}
                             </div>
                         </div>
                     </div>
