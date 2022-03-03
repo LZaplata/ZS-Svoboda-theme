@@ -3,8 +3,10 @@ items:
         title: 'O škole'
         nesting: 0
         type: static-page
+        url: null
         code: ''
         reference: o-skole-o-skole
+        cmsPage: null
         replace: 0
         viewBag:
             isHidden: '0'
@@ -38,13 +40,9 @@ items:
             isExternal: '0'
     -
         title: 'Současní žáci'
-        nesting: 0
-        type: static-page
-        url: null
+        type: cms-page
         code: ''
-        reference: o-skole-soucasni-zaci
-        cmsPage: null
-        replace: 0
+        reference: current-students
         viewBag:
             isHidden: '0'
             cssClass: ''

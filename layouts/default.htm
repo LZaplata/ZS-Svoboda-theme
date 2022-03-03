@@ -36,7 +36,7 @@ default = 0
             {% else %}
                 {% if this.page.id != "homepage" and staticPage.content %}
                     <div class="container-fluid px-0" id="slider-wrapper">
-                        {% component "slider" id=[page.parent.id, "slider"]|join("-") %}
+                        {% component "slider" id=[page.parent.parent ? page.parent.parent.id : page.parent.id, "slider"]|join("-") %}
                     </div>
                 {% endif %}
 
@@ -45,7 +45,7 @@ default = 0
                         <div class="row">
                             <div class="col-xl-3 d-none d-xl-block">
                                 <div class="me-4">
-                                    {% component "left-menu" code=page.parent.id %}
+                                    {% component "left-menu" code=(page.parent.parent ? page.parent.parent.id : page.parent.id) %}
                                 </div>
                             </div>
 

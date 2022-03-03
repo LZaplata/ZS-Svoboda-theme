@@ -5,7 +5,8 @@ static-pages:
         fotogalerie: {  }
         o-skole-zamestnanci: {  }
         o-skole-absolventi: {  }
-        o-skole-soucasni-zaci: {  }
+        o-skole-soucasni-zaci:
+            o-skole-soucasni-zaci-1-trida: {  }
     rodice-verejnost:
         rodice-verejnost-zajmove-krouzky: {  }
         rodice-verejnost-skolni-druzina: {  }
