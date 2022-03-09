@@ -56,8 +56,10 @@ items:
                 title: 'Současní žáci'
                 nesting: 0
                 type: static-page
+                url: null
                 code: ''
                 reference: o-skole-soucasni-zaci
+                cmsPage: null
                 replace: 0
                 viewBag:
                     isHidden: '0'
@@ -341,13 +343,9 @@ items:
                     isExternal: '0'
     -
         title: Kontakty
-        nesting: 0
-        type: static-page
-        url: null
+        type: cms-page
         code: ''
-        reference: kontakty-kontakty
-        cmsPage: null
-        replace: 0
+        reference: contacts
         viewBag:
             isHidden: '0'
             cssClass: ''

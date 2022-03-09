@@ -220,6 +220,12 @@ footer
                 padding-left: 2.5rem
                 position: relative
 
+                a
+                    color: $primary
+
+                    &:hover, &:focus, &:active
+                        color: $link-hover-color
+
                 &:before
                     content: "\F232"
                     font-family: "bootstrap-icons"
@@ -243,3 +249,44 @@ footer
 
         h3
             color: $blue-dark
+
+        h1
+            & + h2, & + h3
+                margin-top: 0
+
+        table
+            border-collapse: separate
+            border-spacing: 5px
+
+            @include media-breakpoint-up(xxl)
+                max-width: 75% !important
+
+            @include media-breakpoint-down(md)
+                border-spacing: 0
+                margin: -5px 0
+
+            tbody
+                tr
+                    @include media-breakpoint-down(md)
+                        display: block
+
+                    td
+                        color: $primary
+                        padding: map-get($spacers, 3) map-get($spacers, 4)
+                        border: 3px solid $green-light
+
+                        a
+                            color: $primary
+                            font-weight: $font-weight-normal
+
+                            &:hover, &:focus, &:active
+                                color: $link-hover-color
+
+                        &.oc-cell-highlighted
+                            font-weight: $font-weight-semi-bold
+                            background: $green-light
+
+                        @include media-breakpoint-down(md)
+                            display: block
+                            width: 100% !important
+                            margin: 5px 0

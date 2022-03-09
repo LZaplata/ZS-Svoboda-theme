@@ -36,7 +36,7 @@ default = 0
             {% else %}
                 {% if this.page.id != "homepage" and staticPage.content %}
                     <div class="container-fluid px-0" id="slider-wrapper">
-                        {% component "slider" id=[page.parent.parent ? page.parent.parent.id : page.parent.id, "slider"]|join("-") %}
+                        {% component "slider" id=[staticPage.parent.parent ? staticPage.parent.parent.id : staticPage.parent.id, "slider"]|join("-") %}
                     </div>
                 {% endif %}
 
@@ -45,20 +45,20 @@ default = 0
                         <div class="row">
                             <div class="col-xl-3 d-none d-xl-block">
                                 <div class="me-4">
-                                    {% component "left-menu" code=(page.parent.parent ? page.parent.parent.id : page.parent.id) %}
+                                    {% component "left-menu" code=(staticPage.parent.parent ? staticPage.parent.parent.id : staticPage.parent.id) %}
                                 </div>
                             </div>
 
-                            <div id="{{ page.id }}" class="content col-xl-9">
+                            <div id="{{ staticPage.id }}" class="content col-xl-9">
                                 <h1 class="mb-4">
-                                    {{ page.title }}
+                                    {{ staticPage.title }}
                                 </h1>
 
                                 {% page %}
 
-                                {% if page.parent.parent %}
+                                {% if staticPage.parent.parent %}
                                     <p class="mb-0 mt-5">
-                                        <a href="{{ page.parent.id|staticPage }}" class="btn btn-primary-gradient text-uppercase d-inline-flex align-items-center">
+                                        <a href="{{ staticPage.parent.id|staticPage }}" class="btn btn-primary-gradient text-uppercase d-inline-flex align-items-center">
                                             <i class="bi bi-chevron-left fs-13 me-2"></i> zpět
                                         </a>
                                     </p>
