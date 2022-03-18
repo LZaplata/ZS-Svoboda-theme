@@ -1,0 +1,33 @@
+url = "/materska-skola/predskolaci-medvidci/aktualita/:slug"
+layout = "default"
+title = "Předškoláci medvídci - Aktualita"
+
+[blogPost post]
+slug = "{{ :slug }}"
+categoryPage = "predskolaci-medvidci"
+
+[staticMenu left-menu]
+code = "materska-skola"
+==
+<?php
+function onInit()
+{
+    $this["activeMenuItem"] = "bears";
+}
+?>
+==
+<div class="container-fluid py-5" id="news-post">
+    <div class="container-lg">
+        <div class="row">
+            <div class="col-xl-3 d-none d-xl-block">
+                <div class="me-4">
+                    {% component "left-menu" %}
+                </div>
+            </div>
+
+            <div class="content col-xl-9">
+                {% component "post" %}
+            </div>
+        </div>
+    </div>
+</div>

@@ -225,26 +225,22 @@ items:
                     isExternal: '0'
             -
                 title: 'Předškoláci medvídci'
-                nesting: 0
-                type: static-page
-                url: null
-                code: ''
-                reference: materska-skola-predskolaci-medvidci
-                cmsPage: null
-                replace: 0
+                type: cms-page
+                code: bears
+                reference: bears
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
                     isExternal: '0'
             -
                 title: Kontakty
-                nesting: 0
-                type: static-page
+                nesting: null
+                type: cms-page
                 url: null
                 code: ''
-                reference: materska-skola-kontakty
+                reference: ms-contacts
                 cmsPage: null
-                replace: 0
+                replace: null
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
@@ -343,9 +339,13 @@ items:
                     isExternal: '0'
     -
         title: Kontakty
+        nesting: null
         type: cms-page
+        url: null
         code: ''
-        reference: contacts
+        reference: zs-contacts
+        cmsPage: null
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''

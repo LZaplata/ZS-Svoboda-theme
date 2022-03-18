@@ -1,22 +1,22 @@
 items:
     -
         title: Kontakty
-        nesting: null
         type: cms-page
-        url: null
         code: ''
-        reference: contacts
-        cmsPage: null
-        replace: null
+        reference: zs-contacts
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
     -
         title: 'Úřední hodiny'
+        nesting: null
         type: cms-page
+        url: null
         code: ''
         reference: office-hours
+        cmsPage: null
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''

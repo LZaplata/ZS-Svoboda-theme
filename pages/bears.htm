@@ -1,0 +1,41 @@
+url = "/materska-skola/predskolaci-medvidci/:page?"
+layout = "default"
+title = "Předškoláci medvídci"
+meta_title = "Předškoláci medvídci"
+meta_description = "Předškoláci medvídci"
+
+[blogPosts posts3]
+pageNumber = "{{ :page }}"
+categoryFilter = "predskolaci-medvidci"
+postsPerPage = 15
+noPostsMessage = "Nenalezeny žádné příspěvky"
+sortOrder = "published_at desc"
+categoryPage = "bears"
+postPage = "bears-post"
+
+[staticMenu left-menu]
+code = "materska-skola"
+==
+<div class="container-fluid px-0" id="slider-wrapper">
+    {% component "slider" id="materska-skola-slider" %}
+</div>
+
+<div class="container-fluid py-5" id="news">
+    <div class="container-lg">
+        <div class="row">
+            <div class="col-xl-3 d-none d-xl-block">
+                <div class="me-4">
+                    {% component "left-menu" %}
+                </div>
+            </div>
+
+            <div class="content col-xl-9">
+                <h1 class="mb-4">
+                    {{ this.page.title }}
+                </h1>
+
+                {% component "posts3" %}
+            </div>
+        </div>
+    </div>
+</div>
