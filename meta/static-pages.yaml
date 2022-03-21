@@ -4,7 +4,28 @@ static-pages:
         o-skole-historie-skoly: {  }
         fotogalerie: {  }
         o-skole-zamestnanci: {  }
-        o-skole-absolventi: {  }
+        o-skole-absolventi:
+            o-skole-absolventi-1945-1949:
+                o-skole-absolventi-1945-1949-1945-1946: {  }
+                o-skole-absolventi-1945-1949-1946-1947: {  }
+                o-skole-absolventi-1945-1949-1947-1948: {  }
+                o-skole-absolventi-1945-1949-1948-1949: {  }
+                o-skole-absolventi-1945-1949-1949-1950: {  }
+            o-skole-absolventi-1950-1959:
+                o-skole-absolventi-1950-1959-1950-1951: {  }
+                o-skole-absolventi-1950-1959-1951-1952: {  }
+                o-skole-absolventi-1950-1959-1952-1953: {  }
+                o-skole-absolventi-1950-1959-1953-1954-a: {  }
+                o-skole-absolventi-1950-1959-1953-1954-b: {  }
+                o-skole-absolventi-1950-1959-1954-1955: {  }
+                o-skole-absolventi-1950-1959-1955-1956: {  }
+                o-skole-absolventi-1950-1959-1956-1957: {  }
+                o-skole-absolventi-1950-1959-1957-1958-a: {  }
+                o-skole-absolventi-1950-1959-1957-1958-b: {  }
+                o-skole-absolventi-1950-1959-1958-1959-a: {  }
+                o-skole-absolventi-1950-1959-1958-1959-b: {  }
+                o-skole-absolventi-1950-1959-1959-1960-a: {  }
+                o-skole-absolventi-1950-1959-1959-1960-b: {  }
         o-skole-soucasni-zaci:
             o-skole-soucasni-zaci-1-trida: {  }
             o-skole-soucasni-zaci-2-trida: {  }
