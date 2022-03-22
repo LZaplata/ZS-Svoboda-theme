@@ -10,8 +10,8 @@ default = 0
 function onStart() {
     $urlArray = explode("/", $this->page->url);
 
-    $this->page["root"] = $urlArray[1];
-    $this->page["parent"] = $urlArray[2];
+    $this->page["root"] = $urlArray[1] ?? null;
+    $this->page["parent"] = $urlArray[2] ?? null;
     $this->page["level"] = count($urlArray) - 1;
 }
 ?>
