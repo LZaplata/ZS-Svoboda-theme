@@ -12,6 +12,7 @@ require:
     - anandpatel.wysiwygeditors
     - andreishilov.spmbreadcrumbs
     - lzaplata.gallery
+    - lzaplata.files
 form:
     fields:
         bakalari:
