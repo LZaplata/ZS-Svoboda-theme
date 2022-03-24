@@ -12,6 +12,7 @@ require:
     - andreishilov.spmbreadcrumbs
     - lzaplata.gallery
     - lzaplata.files
+    - lzaplata.extensions
 form:
     fields:
         bakalari:
