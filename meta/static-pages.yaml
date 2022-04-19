@@ -110,5 +110,4 @@ static-pages:
         dokumenty-smlouvy: {  }
         dokumenty-poptavkove-rizeni: {  }
         dokumenty-gdpr: {  }
-    kontakty:
-        kontakty-nenech-byt: {  }
+    kontakty: {  }

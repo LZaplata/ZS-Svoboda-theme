@@ -211,6 +211,15 @@ items:
             isExternal: '0'
         items:
             -
+                title: Aktuality
+                type: cms-page
+                code: ms-news
+                reference: ms-news
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
                 title: 'O mateřské škole'
                 nesting: 0
                 type: static-page
@@ -219,15 +228,6 @@ items:
                 reference: materska-skola-o-materske-skole
                 cmsPage: null
                 replace: 0
-                viewBag:
-                    isHidden: '0'
-                    cssClass: ''
-                    isExternal: '0'
-            -
-                title: 'Předškoláci medvídci'
-                type: cms-page
-                code: bears
-                reference: bears
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
