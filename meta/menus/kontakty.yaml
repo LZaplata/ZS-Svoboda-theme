@@ -13,6 +13,77 @@ items:
             cssClass: ''
             isExternal: '0'
     -
+        title: 'Vedení školy'
+        nesting: null
+        type: cms-page
+        url: null
+        code: ''
+        reference: zs-management
+        cmsPage: null
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Učitelé
+        nesting: null
+        type: cms-page
+        url: null
+        code: ''
+        reference: zs-teachers
+        cmsPage: null
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'IT oddělení'
+        type: cms-page
+        code: ''
+        reference: zs-it
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Vychovatelé'
+        type: cms-page
+        code: ''
+        reference: zs-educators
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Asistenti pedagoga'
+        type: cms-page
+        code: ''
+        reference: zs-assistents
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Mateřská škola'
+        type: cms-page
+        code: ''
+        reference: zs-ms
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Jídelna'
+        type: cms-page
+        code: ''
+        reference: zs-cafeteria
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
         title: 'Úřední hodiny'
         nesting: null
         type: cms-page
