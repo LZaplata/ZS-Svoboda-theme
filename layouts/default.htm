@@ -6,6 +6,15 @@ default = 0
 
 [Gallery slider]
 id = 1
+
+[blogPosts quick-news]
+pageNumber = "{{ :page }}"
+categoryFilter = "rychle-zpravy"
+postsPerPage = 1
+noPostsMessage = "Nenalezeny žádné příspěvky"
+sortOrder = "published_at asc"
+categoryPage = "bears"
+postPage = "bears"
 ==
 <?php
 function onStart() {
@@ -42,6 +51,8 @@ function onStart() {
         {% partial "header" %}
 
         <main>
+            {% component "quick-news" %}
+
             {% if this.page.id != "homepage" %}
                 <div class="container-fluid px-0 bg-green-light" id="slider-wrapper">
                     {% component "slider" %}

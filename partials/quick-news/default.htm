@@ -1,0 +1,11 @@
+{% set posts = __SELF__.posts %}
+
+{% for post in posts %}
+    <div class="container-fluid bg-red text-white py-3" id="quick-news">
+        <div class="container-lg">
+            <p class="mb-0 d-flex align-items-center fs-19 justify-content-center lh-sm">
+                <i class="bi bi-megaphone fs-23 me-3"></i> {{ post.content|striptags }}
+            </p>
+        </div>
+    </div>
+{% endfor %}
