@@ -83,17 +83,4 @@ items:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
-    -
-        title: 'Úřední hodiny'
-        nesting: null
-        type: cms-page
-        url: null
-        code: ''
-        reference: office-hours
-        cmsPage: null
-        replace: null
-        viewBag:
-            isHidden: '0'
-            cssClass: ''
-            isExternal: '0'
 name: Kontakty

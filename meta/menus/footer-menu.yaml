@@ -198,13 +198,9 @@ items:
                     isExternal: '0'
     -
         title: 'Mateřská škola'
-        nesting: 0
-        type: static-page
-        url: null
+        type: cms-page
         code: ''
-        reference: materska-skola-o-materske-skole
-        cmsPage: null
-        replace: 0
+        reference: ms-news
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -396,56 +392,63 @@ items:
                     isExternal: '0'
             -
                 title: 'IT oddělení'
+                nesting: null
                 type: cms-page
+                url: null
                 code: ''
                 reference: zs-it
+                cmsPage: null
+                replace: null
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
                     isExternal: '0'
             -
-                title: 'Vychovatelé'
+                title: Vychovatelé
+                nesting: null
                 type: cms-page
+                url: null
                 code: ''
                 reference: zs-educators
+                cmsPage: null
+                replace: null
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
                     isExternal: '0'
             -
                 title: 'Asistenti pedagoga'
+                nesting: null
                 type: cms-page
+                url: null
                 code: ''
                 reference: zs-assistents
+                cmsPage: null
+                replace: null
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
                     isExternal: '0'
             -
                 title: 'Mateřská škola'
-                type: cms-page
-                code: ''
-                reference: zs-ms
-                viewBag:
-                    isHidden: '0'
-                    cssClass: ''
-                    isExternal: '0'
-            -
-                title: 'Jídelna'
-                type: cms-page
-                code: ''
-                reference: zs-cafeteria
-                viewBag:
-                    isHidden: '0'
-                    cssClass: ''
-                    isExternal: '0'
-            -
-                title: 'Úřední hodiny'
                 nesting: null
                 type: cms-page
                 url: null
                 code: ''
-                reference: office-hours
+                reference: zs-ms
+                cmsPage: null
+                replace: null
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: Jídelna
+                nesting: null
+                type: cms-page
+                url: null
+                code: ''
+                reference: zs-cafeteria
                 cmsPage: null
                 replace: null
                 viewBag:

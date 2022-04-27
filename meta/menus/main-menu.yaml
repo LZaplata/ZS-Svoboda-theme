@@ -198,13 +198,9 @@ items:
                     isExternal: '0'
     -
         title: 'Mateřská škola'
-        nesting: 0
-        type: static-page
-        url: null
+        type: cms-page
         code: ''
-        reference: materska-skola-o-materske-skole
-        cmsPage: null
-        replace: 0
+        reference: ms-news
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -212,9 +208,13 @@ items:
         items:
             -
                 title: Aktuality
+                nesting: null
                 type: cms-page
+                url: null
                 code: ms-news
                 reference: ms-news
+                cmsPage: null
+                replace: null
                 viewBag:
                     isHidden: '0'
                     cssClass: ''

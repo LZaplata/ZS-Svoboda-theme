@@ -5,6 +5,7 @@ default = 0
 [staticMenu left-menu]
 
 [Gallery slider]
+id = 1
 ==
 <?php
 function onStart() {
@@ -41,16 +42,15 @@ function onStart() {
         {% partial "header" %}
 
         <main>
+            {% if this.page.id != "homepage" %}
+                <div class="container-fluid px-0" id="slider-wrapper">
+                    {% component "slider" %}
+                </div>
+            {% endif %}
+
             {% if not staticPage.content %}
                 {% page %}
             {% else %}
-                {% if this.page.id != "homepage" and staticPage.content %}
-                    <div class="container-fluid px-0" id="slider-wrapper">
-{#                        {% component "slider" id=[this.page.root, "slider"]|join("-") %}#}
-                        {% component "slider" id="slider" %}
-                    </div>
-                {% endif %}
-
                 <div class="container-fluid my-5" id="static-page">
                     <div class="container-lg">
                         <div class="row">
