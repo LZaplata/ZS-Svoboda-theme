@@ -39,10 +39,10 @@ items:
             cssClass: ''
             isExternal: '0'
     -
-        title: 'IT oddělení'
+        title: 'Techničtí pracovníci'
         type: cms-page
         code: ''
-        reference: zs-it
+        reference: zs-technical-staff
         viewBag:
             isHidden: '0'
             cssClass: ''

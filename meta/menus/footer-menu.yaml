@@ -391,12 +391,12 @@ items:
                     cssClass: ''
                     isExternal: '0'
             -
-                title: 'IT oddělení'
+                title: 'Techničtí pracovníci'
                 nesting: null
                 type: cms-page
                 url: null
                 code: ''
-                reference: zs-it
+                reference: zs-technical-staff
                 cmsPage: null
                 replace: null
                 viewBag:
