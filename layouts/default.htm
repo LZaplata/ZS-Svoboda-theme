@@ -46,7 +46,8 @@ function onStart() {
             {% else %}
                 {% if this.page.id != "homepage" and staticPage.content %}
                     <div class="container-fluid px-0" id="slider-wrapper">
-                        {% component "slider" id=[this.page.root, "slider"]|join("-") %}
+{#                        {% component "slider" id=[this.page.root, "slider"]|join("-") %}#}
+                        {% component "slider" id="slider" %}
                     </div>
                 {% endif %}
 
