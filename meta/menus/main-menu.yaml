@@ -106,45 +106,6 @@ items:
                     cssClass: ''
                     isExternal: '0'
             -
-                title: 'Zájmové kroužky'
-                nesting: 0
-                type: static-page
-                url: null
-                code: ''
-                reference: rodice-verejnost-zajmove-krouzky
-                cmsPage: null
-                replace: 0
-                viewBag:
-                    isHidden: '0'
-                    cssClass: ''
-                    isExternal: '0'
-            -
-                title: 'Školní družina'
-                nesting: 0
-                type: static-page
-                url: null
-                code: ''
-                reference: rodice-verejnost-skolni-druzina
-                cmsPage: null
-                replace: 0
-                viewBag:
-                    isHidden: '0'
-                    cssClass: ''
-                    isExternal: '0'
-            -
-                title: 'Výchovný poradce'
-                nesting: 0
-                type: static-page
-                url: null
-                code: ''
-                reference: rodice-verejnost-vychovny-poradce
-                cmsPage: null
-                replace: 0
-                viewBag:
-                    isHidden: '0'
-                    cssClass: ''
-                    isExternal: '0'
-            -
                 title: Rozvrhy
                 nesting: 0
                 type: static-page
@@ -166,6 +127,45 @@ items:
                 reference: ringing
                 cmsPage: null
                 replace: null
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Výchovný poradce'
+                nesting: 0
+                type: cms-page
+                url: null
+                code: 'educational-consultant'
+                reference: educational-consultant
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Zájmové kroužky'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: rodice-verejnost-zajmove-krouzky
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Školní družina'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: rodice-verejnost-skolni-druzina
+                cmsPage: null
+                replace: 0
                 viewBag:
                     isHidden: '0'
                     cssClass: ''

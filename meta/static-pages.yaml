@@ -96,7 +96,6 @@ static-pages:
     rodice-verejnost:
         rodice-verejnost-zajmove-krouzky: {  }
         rodice-verejnost-skolni-druzina: {  }
-        rodice-verejnost-vychovny-poradce: {  }
         rodice-verejnost-rozvrhy: {  }
         rodice-verejnost-logopedicka-prevence: {  }
         rodice-verejnost-specialni-pedagogicka-pece: {  }
