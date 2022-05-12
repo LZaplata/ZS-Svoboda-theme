@@ -1,0 +1,201 @@
+items:
+    -
+        title: 'O škole'
+        nesting: 0
+        type: static-page
+        url: null
+        code: ''
+        reference: skola-o-skole
+        cmsPage: null
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Historie školy'
+        nesting: 0
+        type: static-page
+        url: null
+        code: ''
+        reference: skola-historie-skoly
+        cmsPage: null
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Fotogalerie
+        nesting: 0
+        type: static-page
+        url: null
+        code: ''
+        reference: skola-fotogalerie
+        cmsPage: null
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Současní žáci'
+        nesting: 0
+        type: static-page
+        url: null
+        code: ''
+        reference: skola-soucasni-zaci
+        cmsPage: null
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+        items:
+            -
+                title: '1. třída'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: skola-soucasni-zaci-1-trida
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: '2. třída'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: skola-soucasni-zaci-2-trida
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: '3. třída'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: skola-soucasni-zaci-3-trida
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: '4. třída'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: skola-soucasni-zaci-4-trida
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: '5. třída'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: skola-soucasni-zaci-5-trida
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: '6. třída'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: skola-soucasni-zaci-6-trida
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: '7. A'
+                nesting: 0
+                type: static-page
+                code: ''
+                reference: skola-soucasni-zaci-7-a
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: '7. B'
+                nesting: 0
+                type: static-page
+                code: ''
+                reference: skola-soucasni-zaci-7-b
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: '8. A'
+                nesting: 0
+                type: static-page
+                code: ''
+                reference: skola-soucasni-zaci-8-a
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: '8. B'
+                nesting: 0
+                type: static-page
+                code: ''
+                reference: skola-soucasni-zaci-8-b
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: '9. třída'
+                nesting: 0
+                type: static-page
+                code: ''
+                reference: skola-soucasni-zaci-9-trida
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+    -
+        title: Absolventi
+        nesting: 0
+        type: static-page
+        url: null
+        code: ''
+        reference: skola-absolventi
+        cmsPage: null
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+name: 'O škole'

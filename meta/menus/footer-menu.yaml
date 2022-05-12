@@ -1,11 +1,11 @@
 items:
     -
-        title: 'O škole'
+        title: 'Škola'
         nesting: 0
         type: static-page
         url: null
         code: ''
-        reference: o-skole-o-skole
+        reference: skola-o-skole
         cmsPage: null
         replace: 0
         viewBag:
@@ -19,7 +19,7 @@ items:
                 type: static-page
                 url: null
                 code: ''
-                reference: o-skole-o-skole
+                reference: skola-o-skole
                 cmsPage: null
                 replace: 0
                 viewBag:
@@ -32,7 +32,7 @@ items:
                 type: static-page
                 url: null
                 code: ''
-                reference: o-skole-historie-skoly
+                reference: skola-historie-skoly
                 cmsPage: null
                 replace: 0
                 viewBag:
@@ -58,7 +58,7 @@ items:
                 type: static-page
                 url: null
                 code: ''
-                reference: o-skole-soucasni-zaci
+                reference: skola-soucasni-zaci
                 cmsPage: null
                 replace: 0
                 viewBag:
@@ -71,7 +71,7 @@ items:
                 type: static-page
                 url: null
                 code: ''
-                reference: o-skole-absolventi
+                reference: skola-absolventi
                 cmsPage: null
                 replace: 0
                 viewBag:
@@ -232,19 +232,6 @@ items:
                     isHidden: '0'
                     cssClass: ''
                     isExternal: '0'
-            -
-                title: Kontakty
-                nesting: null
-                type: cms-page
-                url: null
-                code: ''
-                reference: ms-contacts
-                cmsPage: null
-                replace: null
-                viewBag:
-                    isHidden: '0'
-                    cssClass: ''
-                    isExternal: '0'
     -
         title: Dokumenty
         nesting: 0
@@ -273,64 +260,12 @@ items:
                     cssClass: ''
                     isExternal: '0'
             -
-                title: Finance
+                title: 'Řády a směrnice'
                 nesting: 0
                 type: static-page
                 url: null
                 code: ''
-                reference: dokumenty-finance
-                cmsPage: null
-                replace: 0
-                viewBag:
-                    isHidden: '0'
-                    cssClass: ''
-                    isExternal: '0'
-            -
-                title: Projekty
-                nesting: 0
-                type: static-page
-                url: null
-                code: ''
-                reference: dokumenty-projekty
-                cmsPage: null
-                replace: 0
-                viewBag:
-                    isHidden: '0'
-                    cssClass: ''
-                    isExternal: '0'
-            -
-                title: Smlouvy
-                nesting: 0
-                type: static-page
-                url: null
-                code: ''
-                reference: dokumenty-smlouvy
-                cmsPage: null
-                replace: 0
-                viewBag:
-                    isHidden: '0'
-                    cssClass: ''
-                    isExternal: '0'
-            -
-                title: 'Poptávkové řízení'
-                nesting: 0
-                type: static-page
-                url: null
-                code: ''
-                reference: dokumenty-poptavkove-rizeni
-                cmsPage: null
-                replace: 0
-                viewBag:
-                    isHidden: '0'
-                    cssClass: ''
-                    isExternal: '0'
-            -
-                title: GDPR
-                nesting: 0
-                type: static-page
-                url: null
-                code: ''
-                reference: dokumenty-gdpr
+                reference: dokumenty-rady-smernice
                 cmsPage: null
                 replace: 0
                 viewBag:

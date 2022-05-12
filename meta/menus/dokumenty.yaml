@@ -11,55 +11,11 @@ items:
             cssClass: ''
             isExternal: '0'
     -
-        title: Finance
+        title: 'Řády a směrnice'
         nesting: 0
         type: static-page
         code: ''
-        reference: dokumenty-finance
-        replace: 0
-        viewBag:
-            isHidden: '0'
-            cssClass: ''
-            isExternal: '0'
-    -
-        title: Projekty
-        nesting: 0
-        type: static-page
-        code: ''
-        reference: dokumenty-projekty
-        replace: 0
-        viewBag:
-            isHidden: '0'
-            cssClass: ''
-            isExternal: '0'
-    -
-        title: Smlouvy
-        nesting: 0
-        type: static-page
-        code: ''
-        reference: dokumenty-smlouvy
-        replace: 0
-        viewBag:
-            isHidden: '0'
-            cssClass: ''
-            isExternal: '0'
-    -
-        title: 'Poptávkové řízení'
-        nesting: 0
-        type: static-page
-        code: ''
-        reference: dokumenty-poptavkove-rizeni
-        replace: 0
-        viewBag:
-            isHidden: '0'
-            cssClass: ''
-            isExternal: '0'
-    -
-        title: GDPR
-        nesting: 0
-        type: static-page
-        code: ''
-        reference: dokumenty-gdpr
+        reference: dokumenty-rady-smernice
         replace: 0
         viewBag:
             isHidden: '0'

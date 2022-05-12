@@ -21,17 +21,4 @@ items:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
-    -
-        title: Kontakty
-        nesting: null
-        type: cms-page
-        url: null
-        code: ''
-        reference: ms-contacts
-        cmsPage: null
-        replace: null
-        viewBag:
-            isHidden: '0'
-            cssClass: ''
-            isExternal: '0'
 name: 'Mateřská škola'
