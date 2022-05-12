@@ -278,7 +278,7 @@ items:
         type: cms-page
         url: null
         code: ''
-        reference: zs-contacts
+        reference: zs-info
         cmsPage: null
         replace: null
         viewBag:
@@ -287,12 +287,12 @@ items:
             isExternal: '0'
         items:
             -
-                title: Kontakty
+                title: 'Základní informace'
                 nesting: null
                 type: cms-page
                 url: null
                 code: ''
-                reference: zs-contacts
+                reference: zs-info
                 cmsPage: null
                 replace: null
                 viewBag:
