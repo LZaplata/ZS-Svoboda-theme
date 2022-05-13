@@ -197,6 +197,32 @@ items:
                     cssClass: ''
                     isExternal: '0'
             -
+                title: 'Pronájmy sportovišť'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: rodice-verejnost-pronajmy-sportovist
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Cizí strávníci'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: rodice-verejnost-cizi-stravnici
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
                 title: 'Školní družina'
                 nesting: 0
                 type: static-page
