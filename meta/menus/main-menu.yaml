@@ -117,6 +117,19 @@ items:
                     isHidden: '0'
                     cssClass: ''
                     isExternal: '0'
+            -
+                title: 'Školní jídelna'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: 'skola-skolni-jidelna'
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
     -
         title: 'Rodiče a veřejnost'
         nesting: null
@@ -378,51 +391,38 @@ items:
                     cssClass: ''
                     isExternal: '0'
             -
+                title: 'Kancelář školy'
+                nesting: null
+                type: cms-page
+                url: null
+                code: ''
+                reference: zs-office
+                cmsPage: null
+                replace: null
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Školní poradenské pracoviště'
+                nesting: null
+                type: cms-page
+                url: null
+                code: ''
+                reference: zs-counseling-workplace
+                cmsPage: null
+                replace: null
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
                 title: Učitelé
                 nesting: null
                 type: cms-page
                 url: null
                 code: ''
                 reference: zs-teachers
-                cmsPage: null
-                replace: null
-                viewBag:
-                    isHidden: '0'
-                    cssClass: ''
-                    isExternal: '0'
-            -
-                title: 'Techničtí pracovníci'
-                nesting: null
-                type: cms-page
-                url: null
-                code: ''
-                reference: zs-technical-staff
-                cmsPage: null
-                replace: null
-                viewBag:
-                    isHidden: '0'
-                    cssClass: ''
-                    isExternal: '0'
-            -
-                title: Vychovatelé
-                nesting: null
-                type: cms-page
-                url: null
-                code: ''
-                reference: zs-educators
-                cmsPage: null
-                replace: null
-                viewBag:
-                    isHidden: '0'
-                    cssClass: ''
-                    isExternal: '0'
-            -
-                title: 'Asistenti pedagoga'
-                nesting: null
-                type: cms-page
-                url: null
-                code: ''
-                reference: zs-assistents
                 cmsPage: null
                 replace: null
                 viewBag:
@@ -443,12 +443,51 @@ items:
                     cssClass: ''
                     isExternal: '0'
             -
+                title: 'Školní družina'
+                nesting: null
+                type: cms-page
+                url: null
+                code: ''
+                reference: zs-school-club
+                cmsPage: null
+                replace: null
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Asistenti pedagoga'
+                nesting: null
+                type: cms-page
+                url: null
+                code: ''
+                reference: zs-assistents
+                cmsPage: null
+                replace: null
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
                 title: Jídelna
                 nesting: null
                 type: cms-page
                 url: null
                 code: ''
                 reference: zs-cafeteria
+                cmsPage: null
+                replace: null
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Techničtí pracovníci'
+                nesting: null
+                type: cms-page
+                url: null
+                code: ''
+                reference: zs-technical-staff
                 cmsPage: null
                 replace: null
                 viewBag:

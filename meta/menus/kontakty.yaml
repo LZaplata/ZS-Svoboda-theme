@@ -26,6 +26,32 @@ items:
             cssClass: ''
             isExternal: '0'
     -
+        title: 'Kancelář školy'
+        nesting: null
+        type: cms-page
+        url: null
+        code: ''
+        reference: zs-office
+        cmsPage: null
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Školní poradenské pracoviště'
+        nesting: null
+        type: cms-page
+        url: null
+        code: ''
+        reference: zs-counseling-workplace
+        cmsPage: null
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
         title: Učitelé
         nesting: null
         type: cms-page
@@ -34,33 +60,6 @@ items:
         reference: zs-teachers
         cmsPage: null
         replace: null
-        viewBag:
-            isHidden: '0'
-            cssClass: ''
-            isExternal: '0'
-    -
-        title: 'Techničtí pracovníci'
-        type: cms-page
-        code: ''
-        reference: zs-technical-staff
-        viewBag:
-            isHidden: '0'
-            cssClass: ''
-            isExternal: '0'
-    -
-        title: 'Vychovatelé'
-        type: cms-page
-        code: ''
-        reference: zs-educators
-        viewBag:
-            isHidden: '0'
-            cssClass: ''
-            isExternal: '0'
-    -
-        title: 'Asistenti pedagoga'
-        type: cms-page
-        code: ''
-        reference: zs-assistents
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -75,10 +74,37 @@ items:
             cssClass: ''
             isExternal: '0'
     -
+        title: 'Školní družina'
+        type: cms-page
+        code: ''
+        reference: zs-school-club
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Asistenti pedagoga'
+        type: cms-page
+        code: ''
+        reference: zs-assistents
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
         title: 'Jídelna'
         type: cms-page
         code: ''
         reference: zs-cafeteria
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Techničtí pracovníci'
+        type: cms-page
+        code: ''
+        reference: zs-technical-staff
         viewBag:
             isHidden: '0'
             cssClass: ''

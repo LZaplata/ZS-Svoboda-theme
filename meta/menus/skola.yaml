@@ -237,4 +237,17 @@ items:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
+    -
+        title: 'Školní jídelna'
+        nesting: 0
+        type: static-page
+        url: null
+        code: ''
+        reference: 'skola-skolni-jidelna'
+        cmsPage: null
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
 name: 'O škole'
