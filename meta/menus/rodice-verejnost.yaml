@@ -50,25 +50,12 @@ items:
             cssClass: ''
             isExternal: '0'
     -
-        title: 'Zájmové kroužky'
+        title: 'Speciální pedagogická péče'
         nesting: 0
         type: static-page
         url: null
         code: ''
-        reference: rodice-verejnost-zajmove-krouzky
-        cmsPage: null
-        replace: 0
-        viewBag:
-            isHidden: '0'
-            cssClass: ''
-            isExternal: '0'
-    -
-        title: 'Školní družina'
-        nesting: 0
-        type: static-page
-        url: null
-        code: ''
-        reference: rodice-verejnost-skolni-druzina
+        reference: rodice-verejnost-specialni-pedagogicka-pece
         cmsPage: null
         replace: 0
         viewBag:
@@ -89,12 +76,38 @@ items:
             cssClass: ''
             isExternal: '0'
     -
-        title: 'Speciální pedagogická péče'
+        title: 'Kroužky'
         nesting: 0
         type: static-page
         url: null
         code: ''
-        reference: rodice-verejnost-specialni-pedagogicka-pece
+        reference: rodice-verejnost-krouzky
+        cmsPage: null
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'GDPR'
+        nesting: 0
+        type: static-page
+        url: null
+        code: ''
+        reference: rodice-verejnost-gdpr
+        cmsPage: null
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Školní družina'
+        nesting: 0
+        type: static-page
+        url: null
+        code: ''
+        reference: rodice-verejnost-skolni-druzina
         cmsPage: null
         replace: 0
         viewBag:
