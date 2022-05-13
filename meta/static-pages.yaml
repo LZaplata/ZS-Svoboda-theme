@@ -93,6 +93,8 @@ static-pages:
             skola-soucasni-zaci-8-a: {  }
             skola-soucasni-zaci-8-b: {  }
             skola-soucasni-zaci-9-trida: {  }
+        skola-skolska-rada: {  }
+        skola-projekty-granty: {  }
     rodice-verejnost:
         rodice-verejnost-krouzky: {  }
         rodice-verejnost-skolni-druzina: {  }

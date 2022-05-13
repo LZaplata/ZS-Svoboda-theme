@@ -78,6 +78,32 @@ items:
                     isHidden: '0'
                     cssClass: ''
                     isExternal: '0'
+            -
+                title: 'Školská rada'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: skola-skolska-rada
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Projekty a granty'
+                nesting: 0
+                type: static-page
+                url: null
+                code: ''
+                reference: skola-projekty-granty
+                cmsPage: null
+                replace: 0
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
     -
         title: 'Rodiče a veřejnost'
         nesting: null
