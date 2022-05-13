@@ -1,22 +1,22 @@
-url = "/rodice-verejnost/vychovny-poradce/clanek/:slug"
+url = "/skola/skolni-druzina/clanek/:slug"
 layout = "default"
-title = "Výchovný poradce - článek"
+title = "Aktualita MŠ"
 
 [blogPost post]
 slug = "{{ :slug }}"
-categoryPage = "educational-consultant"
+categoryPage = "school-club"
 
 [staticMenu left-menu]
-code = "rodice-verejnost"
+code = "skola"
 ==
 <?php
 function onInit()
 {
-    $this["activeMenuItem"] = "educational-consultant";
+    $this["activeMenuItem"] = "school-club";
 }
 ?>
 ==
-<div class="container-fluid py-5" id="educational-consultant-post">
+<div class="container-fluid py-5" id="school-club-post">
     <div class="container-lg">
         <div class="row">
             <div class="col-xl-3 d-none d-xl-block">

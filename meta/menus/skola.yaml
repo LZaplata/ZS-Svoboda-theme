@@ -224,4 +224,17 @@ items:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
+    -
+        title: 'Školní družina'
+        nesting: null
+        type: cms-page
+        url: null
+        code: 'school-club'
+        reference: 'school-club'
+        cmsPage: null
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
 name: 'O škole'

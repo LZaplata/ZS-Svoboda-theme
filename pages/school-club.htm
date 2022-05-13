@@ -1,0 +1,59 @@
+url = "/skola/skolni-druzina/:page?"
+layout = "default"
+title = "Školní družina"
+meta_title = "Školní družina"
+
+[blogPosts posts3]
+pageNumber = "{{ :page }}"
+categoryFilter = "skolni-druzina"
+postsPerPage = 15
+noPostsMessage = "Nenalezeny žádné příspěvky"
+sortOrder = "published_at desc"
+categoryPage = "school-club"
+postPage = "school-club-post"
+
+[staticMenu left-menu]
+code = "skola"
+==
+<div class="container-fluid py-5" id="school-club">
+    <div class="container-lg">
+        <div class="row">
+            <div class="col-xl-3 d-none d-xl-block">
+                <div class="me-4">
+                    {% component "left-menu" %}
+                </div>
+            </div>
+
+            <div class="content col-xl-9">
+                <h1 class="mb-4">
+                    {{ this.page.title }}
+                </h1>
+
+                <p>
+                    Ve školním roce 2015/2016 pracovaly ve družině 3 vychovatelky. Byla vytvořena tři oddělení, do
+                    kterých docházelo celkem 72 dětí. ŠD pracovala podle ŠVP Čtyři roční období.Máme vytvořené
+                    tematické okruhy, které procházejí napříč průřezovými tématy. Naším cílem vzdělávání je poskytovat
+                    dětem co nejvíce vědomostí a dovedností a tyto dovednosti rozvíjet, prohlubovat a upevňovat zábavnou
+                    formou - soutěžemi, hádankami, kvízy, besedami, didaktickými hrami atd. Činnosti ŠD dělíme na pravidelné,
+                    příležitostné akce a spontánní aktivity. Mezi pravidelné činnosti patří činnost odpočinková, rekreační,
+                    zájmová a příprava na vyučování. Učíme děti spolu dobře vycházet, komunikovat, osvojovat si hygienické
+                    návyky a správně dodržovat bezpečnostní opatření při různých činnostech. Celý školní rok jsme společně
+                    četli a vyprávěli si o dětských knihách a časopisech. Kreslili jsme, vyráběli drobné dárky a přáníčka
+                    k různým příležitostem. Vyzkoušeli jsme práci s mnoha materiály a výtvarnými technikami. Uspořádali
+                    jsme několik akcí pro děti. Např. besídku k Mikuláši, vánoční besídku s nadílkou, sportovní soutěže
+                    družstev, výtvarné soutěže, oslavu dětského dne. Sportovali jsme venku i v tělocvičně. Chodili jsme
+                    na vycházky a poznávali přírodu. Podíleli jsme se na výzdobě městského vánočního stromu. Větší děti
+                    vyrobily čarodějnici. Zajímavé byly besedy o našem městě, o naší vlasti, o Zemi. Děti pracovaly na
+                    projektu o Krkonoších.
+                </p>
+
+                <p class="mb-5">
+                    Za peníze vybrané na poplatcích byly nakoupeny výtvarné potřeby, hračky a drobné odměny pro děti.
+                    Celý školní rok jsme úspěšně spolupracovali s učiteli i s rodiči.
+                </p>
+
+                {% component "posts3" %}
+            </div>
+        </div>
+    </div>
+</div>
