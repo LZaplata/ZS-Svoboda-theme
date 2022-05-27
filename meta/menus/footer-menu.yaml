@@ -186,10 +186,10 @@ items:
             -
                 title: 'Výchovný poradce'
                 nesting: 0
-                type: cms-page
+                type: static-page
                 url: null
-                code: 'educational-consultant'
-                reference: educational-consultant
+                code: ''
+                reference: rodice-verejnost-vychovny-poradce
                 cmsPage: null
                 replace: 0
                 viewBag:

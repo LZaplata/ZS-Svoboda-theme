@@ -99,6 +99,7 @@ static-pages:
     rodice-verejnost:
         rodice-verejnost-krouzky: {  }
         rodice-verejnost-rozvrhy: {  }
+        rodice-verejnost-vychovny-poradce: {  }
         rodice-verejnost-logopedicka-prevence: {  }
         rodice-verejnost-specialni-pedagogicka-pece: {  }
         rodice-verejnost-gdpr: {  }

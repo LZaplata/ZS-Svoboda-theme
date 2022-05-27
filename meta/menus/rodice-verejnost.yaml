@@ -39,10 +39,10 @@ items:
     -
         title: 'Výchovný poradce'
         nesting: 0
-        type: cms-page
+        type: static-page
         url: null
         code: ''
-        reference: educational-consultant
+        reference: rodice-verejnost-vychovny-poradce
         cmsPage: null
         replace: 0
         viewBag:
