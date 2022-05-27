@@ -225,10 +225,10 @@ items:
             -
                 title: 'Kroužky'
                 nesting: 0
-                type: static-page
+                type: cms-page
                 url: null
-                code: ''
-                reference: rodice-verejnost-krouzky
+                code: 'activities'
+                reference: activities
                 cmsPage: null
                 replace: 0
                 viewBag:

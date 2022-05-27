@@ -97,7 +97,6 @@ static-pages:
         skola-projekty-granty: {  }
         skola-skolni-jidelna: {  }
     rodice-verejnost:
-        rodice-verejnost-krouzky: {  }
         rodice-verejnost-rozvrhy: {  }
         rodice-verejnost-vychovny-poradce: {  }
         rodice-verejnost-logopedicka-prevence: {  }

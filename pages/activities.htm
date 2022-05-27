@@ -1,0 +1,47 @@
+url = "/rodice-verejnost/krouzky/:page?"
+layout = "default"
+title = "Kroužky"
+meta_title = "Kroužky"
+
+[blogPosts activities]
+pageNumber = "{{ :page }}"
+categoryFilter = "krouzky"
+noPostsMessage = "Nenalezeny žádné příspěvky"
+sortOrder = "published_at desc"
+categoryPage = "activities"
+postPage = "activities-post"
+
+[staticMenu left-menu]
+code = "rodice-verejnost"
+==
+<div class="container-fluid py-5" id="activities">
+    <div class="container-lg">
+        <div class="row">
+            <div class="col-xl-3 d-none d-xl-block">
+                <div class="me-4">
+                    {% component "left-menu" %}
+                </div>
+            </div>
+
+            <div class="content col-xl-9">
+                <h1 class="mb-4">
+                    Kroužky
+                </h1>
+
+                <p class="fw-bold mb-4">
+                    Nabídka kroužků na 1. pololetí školního roku 2021/2022
+                </p>
+
+                <p class="mb-4">
+                    Přihlášku do kroužku odevzdá zájemce nejen u vedoucího kroužku, ale i u hospodářky školy.
+                </p>
+
+                <p class="mb-5">
+                    Platbu za kroužek odevzdá zájemce u hospodářky školy, paní Schleichové, v době provozních hodin školní pokladny, nejdéle však do pátku 8. 10. 2021.
+                </p>
+
+                {% component "activities" %}
+            </div>
+        </div>
+    </div>
+</div>
