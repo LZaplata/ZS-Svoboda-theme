@@ -15,8 +15,8 @@
                         {{ post.title }}
                     </h3>
 
-                    <div class="card-content mt-2">
-                        {{ post.content|striptags }}
+                    <div class="card-content mt-2 text-dark">
+                        {{ post.content|raw }}
                     </div>
                 </div>
             </div>
