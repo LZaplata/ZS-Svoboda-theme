@@ -4,6 +4,15 @@ title = "Kancelář školy"
 
 [staticMenu left-menu]
 code = "kontakty"
+
+[blogPosts contacts]
+pageNumber = "{{ :page }}"
+categoryFilter = "kancelar-skoly"
+postsPerPage = 10
+noPostsMessage = "Nenalezeny žádné příspěvky"
+sortOrder = "published_at desc"
+categoryPage = "zs-office"
+postPage = "zs-office"
 ==
 <div class="container-fluid py-5" id="contacts">
     <div class="container-lg">
@@ -19,37 +28,39 @@ code = "kontakty"
                     Kancelář školy
                 </h1>
 
-                <h2 class="h3 mb-4 text-blue-dark">
-                    Hospodářka
-                </h2>
+                {% component "contacts" %}
 
-                <div class="row g-1 w-lg-75 w-xl-100 w-xxl-75">
-                    <div class="col-12 col-sm-5 col-xl-4">
-                        <p class="d-flex h-100 align-items-center mb-0 fw-semi-bold py-3 px-4 bg-green-light text-primary border border-3 border-green-light">
-                            Jméno
-                        </p>
-                    </div>
+{#                <h2 class="h3 mb-4 text-blue-dark">#}
+{#                    Hospodářka#}
+{#                </h2>#}
 
-                    <div class="col-12 col-sm-7 col-xl-8">
-                        <p class="mb-0 border border-green-light border-3 py-3 px-4 text-primary">
-                            Monika Schleichova
-                        </p>
-                    </div>
+{#                <div class="row g-1 w-lg-75 w-xl-100 w-xxl-75">#}
+{#                    <div class="col-12 col-sm-5 col-xl-4">#}
+{#                        <p class="d-flex h-100 align-items-center mb-0 fw-semi-bold py-3 px-4 bg-green-light text-primary border border-3 border-green-light">#}
+{#                            Jméno#}
+{#                        </p>#}
+{#                    </div>#}
 
-                    <div class="col-12 col-sm-5 col-xl-4">
-                        <p class="mb-0 fw-semi-bold py-3 px-4 bg-green-light text-primary border border-3 border-green-light">
-                            E-mail
-                        </p>
-                    </div>
+{#                    <div class="col-12 col-sm-7 col-xl-8">#}
+{#                        <p class="mb-0 border border-green-light border-3 py-3 px-4 text-primary">#}
+{#                            Monika Schleichova#}
+{#                        </p>#}
+{#                    </div>#}
 
-                    <div class="col-12 col-sm-7 col-xl-8">
-                        <p class="mb-0 border border-green-light border-3 py-3 px-4">
-                            <a href="mailto:monika.schleichova@zssvoboda.eu" class="text-primary text-secondary-hover transition-base">
-                                monika.schleichova@zssvoboda.eu
-                            </a>
-                        </p>
-                    </div>
-                </div>
+{#                    <div class="col-12 col-sm-5 col-xl-4">#}
+{#                        <p class="mb-0 fw-semi-bold py-3 px-4 bg-green-light text-primary border border-3 border-green-light">#}
+{#                            E-mail#}
+{#                        </p>#}
+{#                    </div>#}
+
+{#                    <div class="col-12 col-sm-7 col-xl-8">#}
+{#                        <p class="mb-0 border border-green-light border-3 py-3 px-4">#}
+{#                            <a href="mailto:monika.schleichova@zssvoboda.eu" class="text-primary text-secondary-hover transition-base">#}
+{#                                monika.schleichova@zssvoboda.eu#}
+{#                            </a>#}
+{#                        </p>#}
+{#                    </div>#}
+{#                </div>#}
             </div>
         </div>
     </div>
