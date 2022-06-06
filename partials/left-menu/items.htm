@@ -1,5 +1,5 @@
 {% for item in items if not item.viewBag.isHidden %}
-    {% if this.page.parent == item.title|slug %}
+    {% if this.page.parent == item.title|replace({" a ": " "})|slug %}
         {% set isChildActive = true %}
     {% else %}
         {% set isChildActive = false %}

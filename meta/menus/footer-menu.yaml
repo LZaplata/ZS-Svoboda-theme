@@ -81,10 +81,10 @@ items:
             -
                 title: 'Školská rada'
                 nesting: 0
-                type: static-page
+                type: cms-page
                 url: null
                 code: ''
-                reference: skola-skolska-rada
+                reference: school-board
                 cmsPage: null
                 replace: 0
                 viewBag:

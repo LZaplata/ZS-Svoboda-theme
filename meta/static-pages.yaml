@@ -93,7 +93,24 @@ static-pages:
             skola-soucasni-zaci-8-a: {  }
             skola-soucasni-zaci-8-b: {  }
             skola-soucasni-zaci-9-trida: {  }
-        skola-projekty-granty: {  }
+        skola-projekty-granty:
+            skola-projekty-granty-projekt-res-vv: {  }
+            skola-projekty-granty-eu-penize-skolam: {  }
+            skola-projekty-granty-ziva-priroda-ve-skole: {  }
+            skola-projekty-granty-zelena-ucebna: {  }
+            skola-projekty-granty-projekt-vyzva-56: {  }
+            skola-projekty-granty-projekt-vyzva-57: {  }
+            skola-projekty-granty-projekt-ovoce-zelenina-do-skol: {  }
+            skola-projekty-granty-projekt-mleko-do-skol: {  }
+            skola-projekty-granty-zaklady-bezeckeho-lyzovani-jiz-od-materske-skoly: {  }
+            skola-projekty-granty-rozvoj-polytechnickych-dovednosti-v-elektrotechnice: {  }
+            skola-projekty-granty-projekt-centra-vzdelavani-pro-udrzitelnou-budoucnost-v-ramci-operacniho-programu-vyzkum-vyvoj-vzdelavani: {  }
+            skola-projekty-granty-projek-po-stopach-predku: {  }
+            skola-projekty-granty-projek-sablony-pro-ms-svoboda-nad-upou: {  }
+            skola-projekty-granty-projekt-podpora-vyuky-plavani-v-zakladnich-skolach-v-roce-2018-ii-etapa-cj-msmt-210882017-1-18smv11-polytechnicka-vychova-vzdelavani: {  }
+            skola-projekty-granty-podpora-vyuky-plavani-v-zakladnich-skolach-v-roce-2019-iv-etapa-cj-msmt-100112018-1: {  }
+            skola-projekty-granty-projekt-elektrina-elektronika-nas-bavi-19smvu-0017: {  }
+            skola-projekty-granty-projekt-doucovani-zaku-skol: {  }
         skola-skolni-jidelna: {  }
     rodice-verejnost:
         rodice-verejnost-rozvrhy: {  }
