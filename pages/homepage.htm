@@ -3,13 +3,32 @@ layout = "default"
 title = "Úvod"
 meta_title = "Úvod"
 
-[blogPosts posts4-no-pagination]
+[blogPosts news-hp]
 pageNumber = "{{ :page }}"
+categoryFilter = "aktuality"
 postsPerPage = 4
 noPostsMessage = "Nenalezeny žádné příspěvky"
 sortOrder = "published_at asc"
 categoryPage = "news"
 postPage = "news-post"
+
+[blogPosts school-club-hp]
+pageNumber = "{{ :page }}"
+categoryFilter = "skolni-druzina"
+postsPerPage = 4
+noPostsMessage = "Nenalezeny žádné příspěvky"
+sortOrder = "published_at asc"
+categoryPage = "school-club"
+postPage = "school-club-post"
+
+[blogPosts ms-news-hp]
+pageNumber = "{{ :page }}"
+categoryFilter = "materska-skola"
+postsPerPage = 4
+noPostsMessage = "Nenalezeny žádné příspěvky"
+sortOrder = "published_at asc"
+categoryPage = "ms-news"
+postPage = "ms-news-post"
 ==
 {% partial "banner" %}
 {% partial "news" %}

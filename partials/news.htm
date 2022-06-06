@@ -4,10 +4,34 @@
             Co je u nás nového
         </h2>
 
-        {% component "posts4-no-pagination" %}
+        {% component "news-hp" %}
 
         <p class="mb-0 mt-5">
             <a href="{{ 'news'|page }}" class="btn btn-primary-gradient text-uppercase d-inline-flex align-items-center">
+                všechny aktuality <i class="bi bi-chevron-right fs-13 ms-2"></i>
+            </a>
+        </p>
+
+        <h2 class="text-center mb-5 mt-5">
+            Co je nového v družině
+        </h2>
+
+        {% component "school-club-hp" %}
+
+        <p class="mb-0 mt-5">
+            <a href="{{ 'school-club'|page }}" class="btn btn-primary-gradient text-uppercase d-inline-flex align-items-center">
+                všechny aktuality <i class="bi bi-chevron-right fs-13 ms-2"></i>
+            </a>
+        </p>
+
+        <h2 class="text-center mb-5 mt-5">
+            Co je nového v mateřské škole
+        </h2>
+
+        {% component "ms-news-hp" %}
+
+        <p class="mb-0 mt-5">
+            <a href="{{ 'ms-news'|page }}" class="btn btn-primary-gradient text-uppercase d-inline-flex align-items-center">
                 všechny aktuality <i class="bi bi-chevron-right fs-13 ms-2"></i>
             </a>
         </p>
