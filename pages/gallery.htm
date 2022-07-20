@@ -1,0 +1,30 @@
+url = "/skola/fotogalerie"
+layout = "default"
+title = "Fotogalerie"
+meta_title = "Fotogalerie"
+
+[staticMenu left-menu]
+code = "skola"
+
+[Gallery gallery]
+gallery = "fotogalerie"
+==
+<div class="container-fluid py-5">
+    <div class="container-lg">
+        <div class="row">
+            <div class="col-xl-3 d-none d-xl-block">
+                <div class="me-4">
+                    {% component "left-menu" %}
+                </div>
+            </div>
+
+            <div class="content col-xl-9">
+                <h1 class="mb-4">
+                    {{ this.page.title }}
+                </h1>
+
+                {% component "gallery" %}
+            </div>
+        </div>
+    </div>
+</div>

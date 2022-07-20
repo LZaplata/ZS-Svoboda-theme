@@ -27,13 +27,9 @@ items:
             isExternal: '0'
     -
         title: Fotogalerie
-        nesting: 0
-        type: static-page
-        url: null
+        type: cms-page
         code: ''
-        reference: skola-fotogalerie
-        cmsPage: null
-        replace: 0
+        reference: gallery
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -134,8 +130,10 @@ items:
                 title: '7. A'
                 nesting: 0
                 type: static-page
+                url: null
                 code: ''
                 reference: skola-soucasni-zaci-7-a
+                cmsPage: null
                 replace: 0
                 viewBag:
                     isHidden: '0'
@@ -145,8 +143,10 @@ items:
                 title: '7. B'
                 nesting: 0
                 type: static-page
+                url: null
                 code: ''
                 reference: skola-soucasni-zaci-7-b
+                cmsPage: null
                 replace: 0
                 viewBag:
                     isHidden: '0'
@@ -156,8 +156,10 @@ items:
                 title: '8. A'
                 nesting: 0
                 type: static-page
+                url: null
                 code: ''
                 reference: skola-soucasni-zaci-8-a
+                cmsPage: null
                 replace: 0
                 viewBag:
                     isHidden: '0'
@@ -167,8 +169,10 @@ items:
                 title: '8. B'
                 nesting: 0
                 type: static-page
+                url: null
                 code: ''
                 reference: skola-soucasni-zaci-8-b
+                cmsPage: null
                 replace: 0
                 viewBag:
                     isHidden: '0'
@@ -178,8 +182,10 @@ items:
                 title: '9. třída'
                 nesting: 0
                 type: static-page
+                url: null
                 code: ''
                 reference: skola-soucasni-zaci-9-trida
+                cmsPage: null
                 replace: 0
                 viewBag:
                     isHidden: '0'
@@ -229,8 +235,8 @@ items:
         nesting: null
         type: cms-page
         url: null
-        code: 'school-club'
-        reference: 'school-club'
+        code: school-club
+        reference: school-club
         cmsPage: null
         replace: null
         viewBag:
@@ -243,7 +249,7 @@ items:
         type: static-page
         url: null
         code: ''
-        reference: 'skola-skolni-jidelna'
+        reference: skola-skolni-jidelna
         cmsPage: null
         replace: 0
         viewBag:

@@ -2,7 +2,6 @@ static-pages:
     skola:
         skola-o-skole: {  }
         skola-historie-skoly: {  }
-        skola-fotogalerie: {  }
         skola-absolventi:
             skola-absolventi-1945-1949:
                 skola-absolventi-1945-1949-1945-1946: {  }

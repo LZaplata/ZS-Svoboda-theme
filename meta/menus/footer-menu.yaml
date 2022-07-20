@@ -1,6 +1,6 @@
 items:
     -
-        title: 'Škola'
+        title: Škola
         nesting: 0
         type: static-page
         url: null
@@ -41,13 +41,9 @@ items:
                     isExternal: '0'
             -
                 title: Fotogalerie
-                nesting: 0
-                type: static-page
-                url: null
+                type: cms-page
                 code: ''
-                reference: fotogalerie
-                cmsPage: null
-                replace: 0
+                reference: gallery
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
@@ -109,8 +105,8 @@ items:
                 nesting: null
                 type: cms-page
                 url: null
-                code: 'school-club'
-                reference: 'school-club'
+                code: school-club
+                reference: school-club
                 cmsPage: null
                 replace: null
                 viewBag:
@@ -123,7 +119,7 @@ items:
                 type: static-page
                 url: null
                 code: ''
-                reference: 'skola-skolni-jidelna'
+                reference: skola-skolni-jidelna
                 cmsPage: null
                 replace: 0
                 viewBag:
@@ -223,11 +219,11 @@ items:
                     cssClass: ''
                     isExternal: '0'
             -
-                title: 'Kroužky'
+                title: Kroužky
                 nesting: 0
                 type: cms-page
                 url: null
-                code: 'activities'
+                code: activities
                 reference: activities
                 cmsPage: null
                 replace: 0
@@ -236,7 +232,7 @@ items:
                     cssClass: ''
                     isExternal: '0'
             -
-                title: 'GDPR'
+                title: GDPR
                 nesting: 0
                 type: static-page
                 url: null
@@ -276,9 +272,13 @@ items:
                     isExternal: '0'
     -
         title: 'Mateřská škola'
+        nesting: null
         type: cms-page
+        url: null
         code: ''
         reference: ms-news
+        cmsPage: null
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
