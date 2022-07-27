@@ -4,6 +4,15 @@ title = "Vedení školy"
 
 [staticMenu left-menu]
 code = "kontakty"
+
+[blogPosts contacts]
+pageNumber = "{{ :page }}"
+categoryFilter = "vedeni-skoly"
+postsPerPage = 10
+noPostsMessage = "Nenalezeny žádné příspěvky"
+sortOrder = "published_at desc"
+categoryPage = "zs-management"
+postPage = "zs-management"
 ==
 <div class="container-fluid py-5" id="contacts">
     <div class="container-lg">
@@ -19,100 +28,102 @@ code = "kontakty"
                     Vedení školy
                 </h1>
 
-                <h2 class="h3 mb-4 text-blue-dark">
-                    Ředitel školy
-                </h2>
+                {% component "contacts" %}
 
-                <div class="row g-1 w-lg-75 w-xl-100 w-xxl-75">
-                    <div class="col-12 col-sm-5 col-xl-4">
-                        <p class="d-flex h-100 align-items-center mb-0 fw-semi-bold py-3 px-4 bg-green-light text-primary border border-3 border-green-light">
-                            Jméno
-                        </p>
-                    </div>
+{#                <h2 class="h3 mb-4 text-blue-dark">#}
+{#                    Ředitel školy#}
+{#                </h2>#}
 
-                    <div class="col-12 col-sm-7 col-xl-8">
-                        <p class="mb-0 border border-green-light border-3 py-3 px-4 text-primary">
-                            Ing. Michal Krtička
-                        </p>
-                    </div>
+{#                <div class="row g-1 w-lg-75 w-xl-100 w-xxl-75">#}
+{#                    <div class="col-12 col-sm-5 col-xl-4">#}
+{#                        <p class="d-flex h-100 align-items-center mb-0 fw-semi-bold py-3 px-4 bg-green-light text-primary border border-3 border-green-light">#}
+{#                            Jméno#}
+{#                        </p>#}
+{#                    </div>#}
 
-                    <div class="col-12 col-sm-5 col-xl-4">
-                        <p class="mb-0 fw-semi-bold py-3 px-4 bg-green-light text-primary border border-3 border-green-light">
-                            E-mail
-                        </p>
-                    </div>
+{#                    <div class="col-12 col-sm-7 col-xl-8">#}
+{#                        <p class="mb-0 border border-green-light border-3 py-3 px-4 text-primary">#}
+{#                            Ing. Michal Krtička#}
+{#                        </p>#}
+{#                    </div>#}
 
-                    <div class="col-12 col-sm-7 col-xl-8">
-                        <p class="mb-0 border border-green-light border-3 py-3 px-4">
-                            <a href="mailto:michal.krticka@zssvoboda.eu" class="text-primary text-secondary-hover transition-base">
-                                michal.krticka@zssvoboda.eu
-                            </a>
-                        </p>
-                    </div>
+{#                    <div class="col-12 col-sm-5 col-xl-4">#}
+{#                        <p class="mb-0 fw-semi-bold py-3 px-4 bg-green-light text-primary border border-3 border-green-light">#}
+{#                            E-mail#}
+{#                        </p>#}
+{#                    </div>#}
 
-                    <div class="col-12 col-sm-5 col-xl-4">
-                        <p class="d-flex h-100 align-items-center mb-0 fw-semi-bold py-3 px-4 bg-green-light text-primary border border-3 border-green-light">
-                            Telefon
-                        </p>
-                    </div>
+{#                    <div class="col-12 col-sm-7 col-xl-8">#}
+{#                        <p class="mb-0 border border-green-light border-3 py-3 px-4">#}
+{#                            <a href="mailto:michal.krticka@zssvoboda.eu" class="text-primary text-secondary-hover transition-base">#}
+{#                                michal.krticka@zssvoboda.eu#}
+{#                            </a>#}
+{#                        </p>#}
+{#                    </div>#}
 
-                    <div class="col-12 col-sm-7 col-xl-8">
-                        <p class="mb-0 border border-green-light border-3 py-3 px-4">
-                            <a href="tel:+420 731 481 922" class="text-primary text-secondary-hover transition-base">
-                                +420 731 481 922
-                            </a> <span class="d-none d-md-inline-block">/</span> <br class="d-md-none">
-                            <a href="tel: +420 499 871 109" class="text-primary text-secondary-hover transition-base">
-                                 +420 499 871 109
-                            </a>
-                        </p>
-                    </div>
-                </div>
+{#                    <div class="col-12 col-sm-5 col-xl-4">#}
+{#                        <p class="d-flex h-100 align-items-center mb-0 fw-semi-bold py-3 px-4 bg-green-light text-primary border border-3 border-green-light">#}
+{#                            Telefon#}
+{#                        </p>#}
+{#                    </div>#}
 
-                <h2 class="h3 mt-5 mb-4 text-blue-dark">
-                    Zástupce ředitele
-                </h2>
+{#                    <div class="col-12 col-sm-7 col-xl-8">#}
+{#                        <p class="mb-0 border border-green-light border-3 py-3 px-4">#}
+{#                            <a href="tel:+420 731 481 922" class="text-primary text-secondary-hover transition-base">#}
+{#                                +420 731 481 922#}
+{#                            </a> <span class="d-none d-md-inline-block">/</span> <br class="d-md-none">#}
+{#                            <a href="tel: +420 499 871 109" class="text-primary text-secondary-hover transition-base">#}
+{#                                 +420 499 871 109#}
+{#                            </a>#}
+{#                        </p>#}
+{#                    </div>#}
+{#                </div>#}
 
-                <div class="row g-1 w-lg-75 w-xl-100 w-xxl-75">
-                    <div class="col-12 col-sm-5 col-xl-4">
-                        <p class="d-flex h-100 align-items-center mb-0 fw-semi-bold py-3 px-4 bg-green-light text-primary border border-3 border-green-light">
-                            Jméno
-                        </p>
-                    </div>
+{#                <h2 class="h3 mt-5 mb-4 text-blue-dark">#}
+{#                    Zástupce ředitele#}
+{#                </h2>#}
 
-                    <div class="col-12 col-sm-7 col-xl-8">
-                        <p class="mb-0 border border-green-light border-3 py-3 px-4 text-primary">
-                            Mgr. Jan Šváb
-                        </p>
-                    </div>
+{#                <div class="row g-1 w-lg-75 w-xl-100 w-xxl-75">#}
+{#                    <div class="col-12 col-sm-5 col-xl-4">#}
+{#                        <p class="d-flex h-100 align-items-center mb-0 fw-semi-bold py-3 px-4 bg-green-light text-primary border border-3 border-green-light">#}
+{#                            Jméno#}
+{#                        </p>#}
+{#                    </div>#}
 
-                    <div class="col-12 col-sm-5 col-xl-4">
-                        <p class="mb-0 fw-semi-bold py-3 px-4 bg-green-light text-primary border border-3 border-green-light">
-                            E-mail
-                        </p>
-                    </div>
+{#                    <div class="col-12 col-sm-7 col-xl-8">#}
+{#                        <p class="mb-0 border border-green-light border-3 py-3 px-4 text-primary">#}
+{#                            Mgr. Jan Šváb#}
+{#                        </p>#}
+{#                    </div>#}
 
-                    <div class="col-12 col-sm-7 col-xl-8">
-                        <p class="mb-0 border border-green-light border-3 py-3 px-4">
-                            <a href="mailto:jan.svab@zssvoboda.eu" class="text-primary text-secondary-hover transition-base">
-                                jan.svab@zssvoboda.eu
-                            </a>
-                        </p>
-                    </div>
+{#                    <div class="col-12 col-sm-5 col-xl-4">#}
+{#                        <p class="mb-0 fw-semi-bold py-3 px-4 bg-green-light text-primary border border-3 border-green-light">#}
+{#                            E-mail#}
+{#                        </p>#}
+{#                    </div>#}
 
-                    <div class="col-12 col-sm-5 col-xl-4">
-                        <p class="d-flex h-100 align-items-center mb-0 fw-semi-bold py-3 px-4 bg-green-light text-primary border border-3 border-green-light">
-                            Telefon
-                        </p>
-                    </div>
+{#                    <div class="col-12 col-sm-7 col-xl-8">#}
+{#                        <p class="mb-0 border border-green-light border-3 py-3 px-4">#}
+{#                            <a href="mailto:jan.svab@zssvoboda.eu" class="text-primary text-secondary-hover transition-base">#}
+{#                                jan.svab@zssvoboda.eu#}
+{#                            </a>#}
+{#                        </p>#}
+{#                    </div>#}
 
-                    <div class="col-12 col-sm-7 col-xl-8">
-                        <p class="mb-0 border border-green-light border-3 py-3 px-4">
-                            <a href="tel:+420 737 582 655" class="text-primary text-secondary-hover transition-base">
-                                +420 737 582 655
-                            </a>
-                        </p>
-                    </div>
-                </div>
+{#                    <div class="col-12 col-sm-5 col-xl-4">#}
+{#                        <p class="d-flex h-100 align-items-center mb-0 fw-semi-bold py-3 px-4 bg-green-light text-primary border border-3 border-green-light">#}
+{#                            Telefon#}
+{#                        </p>#}
+{#                    </div>#}
+
+{#                    <div class="col-12 col-sm-7 col-xl-8">#}
+{#                        <p class="mb-0 border border-green-light border-3 py-3 px-4">#}
+{#                            <a href="tel:+420 737 582 655" class="text-primary text-secondary-hover transition-base">#}
+{#                                +420 737 582 655#}
+{#                            </a>#}
+{#                        </p>#}
+{#                    </div>#}
+{#                </div>#}
             </div>
         </div>
     </div>

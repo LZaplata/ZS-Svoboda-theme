@@ -9,6 +9,7 @@ database: '0'
 require:
     - rainlab.pages
     - rainlab.blog
+    - rainlab.translate
     - lzaplata.gallery
     - lzaplata.files
     - lzaplata.extensions

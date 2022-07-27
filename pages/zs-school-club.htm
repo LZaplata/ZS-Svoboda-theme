@@ -4,6 +4,15 @@ title = "Školní družina"
 
 [staticMenu left-menu]
 code = "kontakty"
+
+[blogPosts contacts]
+pageNumber = "{{ :page }}"
+categoryFilter = "skolni-druzina"
+postsPerPage = 10
+noPostsMessage = "Nenalezeny žádné příspěvky"
+sortOrder = "published_at desc"
+categoryPage = "zs-school-club"
+postPage = "zs-school-club"
 ==
 <div class="container-fluid py-5" id="contacts">
     <div class="container-lg">
@@ -19,97 +28,7 @@ code = "kontakty"
                     Školní družina
                 </h1>
 
-                <h2 class="h3 mb-4 text-blue-dark">
-                    Vychovatelka ŠD
-                </h2>
-
-                <div class="row g-1 w-lg-75 w-xl-100 w-xxl-75">
-                    <div class="col-12 col-sm-5 col-xl-4">
-                        <p class="d-flex h-100 align-items-center mb-0 fw-semi-bold py-3 px-4 bg-green-light text-primary border border-3 border-green-light">
-                            Jméno
-                        </p>
-                    </div>
-
-                    <div class="col-12 col-sm-7 col-xl-8">
-                        <p class="mb-0 border border-green-light border-3 py-3 px-4 text-primary">
-                            Lenka Paříková
-                        </p>
-                    </div>
-
-                    <div class="col-12 col-sm-5 col-xl-4">
-                        <p class="mb-0 fw-semi-bold py-3 px-4 bg-green-light text-primary border border-3 border-green-light">
-                            E-mail
-                        </p>
-                    </div>
-
-                    <div class="col-12 col-sm-7 col-xl-8">
-                        <p class="mb-0 border border-green-light border-3 py-3 px-4">
-                            <a href="mailto:lenka.parikova@zssvoboda.eu" class="text-primary text-secondary-hover transition-base">
-                                lenka.parikova@zssvoboda.eu
-                            </a>
-                        </p>
-                    </div>
-
-                    <div class="col-12 col-sm-5 col-xl-4">
-                        <p class="d-flex h-100 align-items-center mb-0 fw-semi-bold py-3 px-4 bg-green-light text-primary border border-3 border-green-light">
-                            Telefon
-                        </p>
-                    </div>
-
-                    <div class="col-12 col-sm-7 col-xl-8">
-                        <p class="mb-0 border border-green-light border-3 py-3 px-4">
-                            <a href="tel:+420 736 194 622" class="text-primary text-secondary-hover transition-base">
-                                +420 736 194 622
-                            </a>
-                        </p>
-                    </div>
-                </div>
-
-                <h2 class="h3 mt-5 mb-4 text-blue-dark">
-                    Vychovatelka ŠD
-                </h2>
-
-                <div class="row g-1 w-lg-75 w-xl-100 w-xxl-75">
-                    <div class="col-12 col-sm-5 col-xl-4">
-                        <p class="d-flex h-100 align-items-center mb-0 fw-semi-bold py-3 px-4 bg-green-light text-primary border border-3 border-green-light">
-                            Jméno
-                        </p>
-                    </div>
-
-                    <div class="col-12 col-sm-7 col-xl-8">
-                        <p class="mb-0 border border-green-light border-3 py-3 px-4 text-primary">
-                            Dana Šritrová
-                        </p>
-                    </div>
-
-                    <div class="col-12 col-sm-5 col-xl-4">
-                        <p class="mb-0 fw-semi-bold py-3 px-4 bg-green-light text-primary border border-3 border-green-light">
-                            E-mail
-                        </p>
-                    </div>
-
-                    <div class="col-12 col-sm-7 col-xl-8">
-                        <p class="mb-0 border border-green-light border-3 py-3 px-4">
-                            <a href="mailto:dana.sritrova@zssvoboda.eu" class="text-primary text-secondary-hover transition-base">
-                                dana.sritrova@zssvoboda.eu
-                            </a>
-                        </p>
-                    </div>
-
-                    <div class="col-12 col-sm-5 col-xl-4">
-                        <p class="d-flex h-100 align-items-center mb-0 fw-semi-bold py-3 px-4 bg-green-light text-primary border border-3 border-green-light">
-                            Telefon
-                        </p>
-                    </div>
-
-                    <div class="col-12 col-sm-7 col-xl-8">
-                        <p class="mb-0 border border-green-light border-3 py-3 px-4">
-                            <a href="tel:+420 736 194 622" class="text-primary text-secondary-hover transition-base">
-                                +420 736 194 622
-                            </a>
-                        </p>
-                    </div>
-                </div>
+                {% component "contacts" %}
             </div>
         </div>
     </div>
