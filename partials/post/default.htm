@@ -18,7 +18,7 @@
     <div class="mt-5" id="gallery">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
             {% for image in post.featured_images %}
-                <div class="col">
+                <div class="col d-flex align-items-center justify-content-center">
                     <a href="{{ image.path }}" title="{{ image.description }}">
                         <img src="{{ image.path|resize(600, 400) }}" alt="{{ image.title }}" class="img-fluid" />
                     </a>
