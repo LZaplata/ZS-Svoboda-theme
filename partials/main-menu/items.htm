@@ -1,25 +1,27 @@
-{% for item in items if not item.viewBag.isHidden %}
-    {% if this.page.parent == item.title|slug and item.type == "static-page" %}
-        {% set isChildActive = true %}
-    {% else %}
-        {% set isChildActive = false %}
-    {% endif %}
-
-    <li class="nav-item {{ item.viewBag.cssClass }}">
-        {% if item.url %}
-            <a href="{{ item.url }}" class="nav-link text-uppercase h-100 align-items-center d-flex {{ item.isActive or item.isChildActive or isChildActive ? 'active' : '' }}" {{ item.viewBag.isExternal ? 'target="_blank"' }}>
-                {{ item.title }}
-            </a>
+{% for item in items  %}
+    {% if not item.viewBag.isHidden %}
+        {% if this.page.parent == item.title|slug and item.type == "static-page" %}
+            {% set isChildActive = true %}
         {% else %}
-            <span>{{ item.title }}</span>
+            {% set isChildActive = false %}
         {% endif %}
 
-        {% if item.items %}
-            <div>
-                <ul class="nav flex-column">
-                    {% partial __SELF__ ~ "::items" items=item.items %}
-                </ul>
-            </div>
-        {% endif %}
-    </li>
+        <li class="nav-item {{ item.viewBag.cssClass }}">
+            {% if item.url %}
+                <a href="{{ item.url }}" class="nav-link text-uppercase h-100 align-items-center d-flex {{ item.isActive or item.isChildActive or isChildActive ? 'active' : '' }}" {{ item.viewBag.isExternal ? 'target="_blank"' }}>
+                    {{ item.title }}
+                </a>
+            {% else %}
+                <span>{{ item.title }}</span>
+            {% endif %}
+
+            {% if item.items %}
+                <div>
+                    <ul class="nav flex-column">
+                        {% partial __SELF__ ~ "::items" items=item.items %}
+                    </ul>
+                </div>
+            {% endif %}
+        </li>
+    {% endif %}
 {% endfor %}

@@ -1,13 +1,15 @@
-{% for item in items if not item.viewBag.isHidden %}
-    <div class="col flex-lg-fill">
-        <p class="text-uppercase fw-bold fs-20 mb-3">
-            {{ item.title }}
-        </p>
+{% for item in items  %}
+    {% if not item.viewBag.isHidden %}
+        <div class="col flex-lg-fill">
+            <p class="text-uppercase fw-bold fs-20 mb-3">
+                {{ item.title }}
+            </p>
 
-        {% if item.items %}
-            <ul class="nav flex-column">
-                {% partial __SELF__ ~ "::items" items=item.items %}
-            </ul>
-        {% endif %}
-    </div>
+            {% if item.items %}
+                <ul class="nav flex-column">
+                    {% partial __SELF__ ~ "::items" items=item.items %}
+                </ul>
+            {% endif %}
+        </div>
+    {% endif %}
 {% endfor %}
