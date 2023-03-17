@@ -316,3 +316,16 @@ footer
 
 #quick-news
     padding-top: 6px
+
+    .content
+        p
+            &:last-child
+                margin-bottom: 0
+
+            a
+                color: $white
+                text-decoration: underline
+                transition: $transition-base
+
+                &:hover
+                    text-decoration: none
