@@ -1,6 +1,6 @@
 <div id="{{ __SELF__ }}" class="swiper">
     <div class="swiper-wrapper">
-        {% for image in __SELF__.gallery.images %}
+        {% for image in __SELF__.images %}
             <div class="swiper-slide">
                 <img src="{{ image.path }}" alt="{{ image.title }}" class="img-fluid">
             </div>
