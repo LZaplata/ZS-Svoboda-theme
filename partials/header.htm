@@ -31,6 +31,16 @@ code = "main-menu"
                     </li>
                 {% endif %}
 
+                {% if this.theme.twigsee %}
+                    <li class="nav-item">
+                        <a href="{{ this.theme.twigsee }}" target="_blank" class="nav-link text-uppercase fs-13 text-center">
+                            <img src="{{ 'assets/images/twigsee.png'|theme }}" alt="Twigsee" class="mb-1 twigsee"><br>
+
+                            Twigsee
+                        </a>
+                    </li>
+                {% endif %}
+
                 {% if this.theme.cafeteria %}
                     <li class="nav-item">
                         <a href="{{ 'skola-skolni-jidelna'|staticPage }}" class="nav-link text-uppercase fs-13 text-center">

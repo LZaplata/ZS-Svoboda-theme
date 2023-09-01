@@ -18,9 +18,12 @@ form:
         bakalari:
             label: Bakaláři
             span: left
+        twigsee:
+            label: Twigsee
+            span: right
         cafeteria:
             label: Jídelna
-            span: right
+            span: left
         facebook:
             label: Facebook
             span: left
